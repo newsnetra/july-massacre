@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>July Massacre</title>
+    <script type="module" crossorigin src="/assets/index-k5idOWZB.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BKsdcZZB.css">
+  </head>
+  <body>
+    <header style="z-index: 9999; position: relative">
+      <div class="nav1">
+        <div class="nav-center">
+          <a
+            href="https://netra.news"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div>
+              <img class="nav-logo" alt="Netra News Logo" src="./logo.png" />
+            </div>
+          </a>
+        </div>
+        <div class="nav-interactive">
+          <span>Interactive</span>
+        </div>
+        <div class="menu-section">
+          <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+          <nav>
+            <ul role="navigation" class="hidden">
+              <li>
+                <a href="https://netra.news/tags/netra-report/"
+                  >Investigation</a
+                >
+              </li>
+              <li>
+                <a href="https://netra.news/tags/column/">Commentaries</a>
+              </li>
+              <li><a href="https://netra.news/about/">About</a></li>
+              <li><a href="https://netra.news/contact/">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div id="root"></div>
+
+    <!-- Menu toggle script -->
+    <script>
+      document
+        .querySelector(".menu-toggle")
+        .addEventListener("click", function () {
+          this.classList.toggle("on");
+          document.querySelector(".menu-section").classList.toggle("on");
+          document.querySelector("nav ul").classList.toggle("hidden");
+        });
+    </script>
+    <div class="paperOverlay"></div>
+  </body>
+</html>
