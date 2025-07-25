@@ -1,0 +1,32 @@
+[
+  {
+    "Generation": "Generation Alpha",
+    "Victims": 6,
+    "Percentage": "0.85%"
+  },
+  {
+    "Generation": "Generation Z",
+    "Victims": 431,
+    "Percentage": "61.13%"
+  },
+  {
+    "Generation": "Millennials",
+    "Victims": 206,
+    "Percentage": "29.22%"
+  },
+  {
+    "Generation": "Generation X",
+    "Victims": 54,
+    "Percentage": "7.66%"
+  },
+  {
+    "Generation": "Baby boomers",
+    "Victims": 8,
+    "Percentage": "1.13%"
+  },
+  {
+    "Generation": "Total",
+    "Victims": 705,
+    "Percentage": "100.00%"
+  }
+]

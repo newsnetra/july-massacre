@@ -1,0 +1,4232 @@
+[
+  {
+    "MedicalCaseID": 4,
+    "Victim": "Hossain Mia",
+    "District": "Habiganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 6,
+    "Victim": "Md Ashraful Alam",
+    "District": "Habiganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 9,
+    "Victim": "Md Mojakkir Mia",
+    "District": "Habiganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13,
+    "Victim": "Sheikh Noyon Hossen",
+    "District": "Habiganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 15,
+    "Victim": "Md Tofazzol Hossen",
+    "District": "Habiganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 18,
+    "Victim": "Md Sadikur Rahman",
+    "District": "Habiganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 23,
+    "Victim": "Sani Ahmed",
+    "District": "Sylhet",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 27,
+    "Victim": "Md Nazmul Islam",
+    "District": "Sylhet",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 29,
+    "Victim": "Reazul Farazi",
+    "District": "Munshiganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 32,
+    "Victim": "Nur Md Sorder",
+    "District": "Munshiganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 37,
+    "Victim": "Md Minarul Islam",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 47,
+    "Victim": "Md Akinur Rahman",
+    "District": "Habiganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 49,
+    "Victim": "Gous Uddin",
+    "District": "Sylhet",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 51,
+    "Victim": "Minhaj Ahmed",
+    "District": "Sylhet",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 60,
+    "Victim": "Md Farid Sheikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 65,
+    "Victim": "Amjad Hossain",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 71,
+    "Victim": "Md Ashikul Islam Rabbi",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 89,
+    "Victim": "Md Sazid Howlader",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 126,
+    "Victim": "Md Asib Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 127,
+    "Victim": "Hasib Ahasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 135,
+    "Victim": "Md Kamrul Islam (Setu)",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 138,
+    "Victim": "Jahangir Alam",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 139,
+    "Victim": "Abdullah Al Mahin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 154,
+    "Victim": "Md Rakib Hassan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "RAB"
+  },
+  {
+    "MedicalCaseID": 446,
+    "Victim": "Md Wasim",
+    "District": "Chattogram",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 480,
+    "Victim": "Foysal Ahmed Shanto",
+    "District": "Chattogram",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 525,
+    "Victim": "Tanvir Siddiqui",
+    "District": "Chattogram",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 555,
+    "Victim": "Robiul Islam Rokib",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 848,
+    "Victim": "Md Munirul Islam",
+    "District": "Bogura",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 939,
+    "Victim": "Md Zahidul Islam",
+    "District": "Pabna",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 1115,
+    "Victim": "Julfikar Ahmed Shakil",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 1213,
+    "Victim": "Md Sajal",
+    "District": "Munshiganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 1655,
+    "Victim": "Md Abdullah Al Mostakim",
+    "District": "Kushtia",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 2964,
+    "Victim": "Md Yusuf Sheikh",
+    "District": "Kushtia",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3007,
+    "Victim": "Md Asharaful Islam",
+    "District": "Kushtia",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3017,
+    "Victim": "Md Junaid Islam Ratul",
+    "District": "Bogura",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3032,
+    "Victim": "Md Usama",
+    "District": "Kushtia",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3065,
+    "Victim": "Md Bablu Farazi",
+    "District": "Kushtia",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3093,
+    "Victim": "Jinnatul Islam Khokon",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3100,
+    "Victim": "Md Shahariar Shuvo",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3114,
+    "Victim": "Md Sabuj",
+    "District": "Kushtia",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 3184,
+    "Victim": "Maruf Miah",
+    "District": "Tangail",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3243,
+    "Victim": "Md Sohel Rana",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3316,
+    "Victim": "Md Rofikul Islam",
+    "District": "Manikganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3408,
+    "Victim": "Md Abdullah Kabir",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 3421,
+    "Victim": "Md Mahbub Alam",
+    "District": "Sherpur",
+    "AllegedPerpetrator": "Magistrate"
+  },
+  {
+    "MedicalCaseID": 3498,
+    "Victim": "Md Sobuz Mia",
+    "District": "Sherpur",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 3519,
+    "Victim": "Sardul Ashish Sourab",
+    "District": "Sherpur",
+    "AllegedPerpetrator": "Magistrate"
+  },
+  {
+    "MedicalCaseID": 3563,
+    "Victim": "Md Mahabub Hasan Niloy",
+    "District": "Pabna",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 3660,
+    "Victim": "Md Raju Ahmed",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3734,
+    "Victim": "Muhammad Saiful Hassan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Army"
+  },
+  {
+    "MedicalCaseID": 3743,
+    "Victim": "Mahfuzur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3751,
+    "Victim": "Sheikh Md Sakib Rayhan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 3807,
+    "Victim": "Mirajul Islam Arnob",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "RAB"
+  },
+  {
+    "MedicalCaseID": 3847,
+    "Victim": "Md Sagor Ahmed",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3873,
+    "Victim": "Md Sujon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 3884,
+    "Victim": "Sabbir Hossain Roni",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3966,
+    "Victim": "Hasnain Ahmed",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 3969,
+    "Victim": "Mahamudur Rahman Saikat",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 3971,
+    "Victim": "Md Rustum",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 4017,
+    "Victim": "Suzon Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 4116,
+    "Victim": "Arafat Munshi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 4163,
+    "Victim": "Md Momin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 4181,
+    "Victim": "Golam Nafis",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 4209,
+    "Victim": "Shafiq Uddin Ahmed",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 4238,
+    "Victim": "Ripon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 4242,
+    "Victim": "Md Kabirul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 4530,
+    "Victim": "Md Ayatullah Islam",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Ansar"
+  },
+  {
+    "MedicalCaseID": 4638,
+    "Victim": "Md Zihad Hossen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 4761,
+    "Victim": "Md Shamim Howlader",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 4764,
+    "Victim": "Nasir Islam",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 4791,
+    "Victim": "Md Suzon Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 4907,
+    "Victim": "Md Asif Iqbal",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 5050,
+    "Victim": "Md Ahnaf Abir Ashrafullah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 5716,
+    "Victim": "Mir Mahfuzur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 5892,
+    "Victim": "Ramjan Ali",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 6064,
+    "Victim": "Md Shimul",
+    "District": "Bogura",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 7227,
+    "Victim": "Samid Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 7249,
+    "Victim": "Alamgir Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 7403,
+    "Victim": "Sabid Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 7777,
+    "Victim": "Md Abdul Mannan Sarker",
+    "District": "Bogura",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 7847,
+    "Victim": "Siam Shuvo",
+    "District": "Bogura",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 7869,
+    "Victim": "Md Jahangir Alam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 8520,
+    "Victim": "Md Ridone Hossain",
+    "District": "Mymensingh",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 8524,
+    "Victim": "Mehedi Hasan Rabbi",
+    "District": "Magura",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 8599,
+    "Victim": "Md Sagor Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 9636,
+    "Victim": "Md Najim Uddin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 9648,
+    "Victim": "Omar Nurul Absar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 9663,
+    "Victim": "Md Sabbir Islam Sakib",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 9714,
+    "Victim": "Sheikh Rakib",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 10159,
+    "Victim": "Md Sakib Anjum",
+    "District": "Rajshahi",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 10220,
+    "Victim": "Sabbir Hossen",
+    "District": "Laxmipur",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 10533,
+    "Victim": "Md Ashraful Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 10560,
+    "Victim": "Shamsu Molla",
+    "District": "Faridpur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 10722,
+    "Victim": "Jubayer Ahmed",
+    "District": "Mymensingh",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 10801,
+    "Victim": "Md Ramjan Mia Jibon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 11057,
+    "Victim": "Nur-e-Alam Siddiqui Rakib",
+    "District": "Mymensingh",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 11459,
+    "Victim": "Biplob Hasan",
+    "District": "Mymensingh",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 11836,
+    "Victim": "Md Kurman Sheikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 11853,
+    "Victim": "Saad Mahmud Khan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 11900,
+    "Victim": "Mithu Biswas Maruf",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 11926,
+    "Victim": "Md Sujon Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 11959,
+    "Victim": "Safwan Akhter",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 11987,
+    "Victim": "Md Al Amin Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 12005,
+    "Victim": "Mujahid",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 12108,
+    "Victim": "Md Julker Nain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 12191,
+    "Victim": "Md Rifat Hossain",
+    "District": "Cumilla",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 12358,
+    "Victim": "Md Ontor Islam",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Ansar"
+  },
+  {
+    "MedicalCaseID": 12574,
+    "Victim": "Abdullah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 12827,
+    "Victim": "Md Tuhin Ahmed",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 12843,
+    "Victim": "Farook",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 12880,
+    "Victim": "Shuvo Shil",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13062,
+    "Victim": "Md Emon",
+    "District": "Tangail",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13075,
+    "Victim": "Md Tahmid Abdullah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13186,
+    "Victim": "Aseer Intisharul Haque",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 13340,
+    "Victim": "Md Arifur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13378,
+    "Victim": "Al-Amin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13411,
+    "Victim": "Md Al Amin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13436,
+    "Victim": "Md Forid Ahmmad Sayal",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13462,
+    "Victim": "Md Abdul Oadud",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13555,
+    "Victim": "Safiq Mia",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13586,
+    "Victim": "Md Sohel Rana",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 13608,
+    "Victim": "Md Habib",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13632,
+    "Victim": "Abdul Kayum",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 13634,
+    "Victim": "Mahmudul Hasan Joy",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13657,
+    "Victim": "Emon Miah",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 13665,
+    "Victim": "Md Riaz",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13679,
+    "Victim": "Riya Gope",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 13697,
+    "Victim": "Hridoy Chandra Torua",
+    "District": "Chattogram",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 13712,
+    "Victim": "Sadekur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 13714,
+    "Victim": "Md Abdul Gani Sheikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 13781,
+    "Victim": "Md Nazmul Miah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13795,
+    "Victim": "Md Naim Babu",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 13815,
+    "Victim": "Shah Alam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13821,
+    "Victim": "Dulal Mahmud",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13843,
+    "Victim": "Md Hridoy Ahmed",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13929,
+    "Victim": "Md Sumon Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 13989,
+    "Victim": "Md Robiul Islam Forazi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14022,
+    "Victim": "Md Parvej",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 14036,
+    "Victim": "Mohammad Ismamul Haque",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14045,
+    "Victim": "Md Ashif Hossain",
+    "District": "Noakhali",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14050,
+    "Victim": "Md Akram Khan Rabby",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 14075,
+    "Victim": "Md Abdul Ahad",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 14126,
+    "Victim": "Md Sabbir Howlader",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14128,
+    "Victim": "Ashraful Islam Howlader",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14149,
+    "Victim": "Md Al Mamun Amanat",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14151,
+    "Victim": "Abdullah Al Abir",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14164,
+    "Victim": "Md Moinul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14171,
+    "Victim": "Md Rubel",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14208,
+    "Victim": "Imran",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14240,
+    "Victim": "Kamal Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14255,
+    "Victim": "Shah Jamal",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 14258,
+    "Victim": "Emtiaz Ahammad Zabir",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 14288,
+    "Victim": "Imam Hasan Taim",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14352,
+    "Victim": "Md Monir Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14357,
+    "Victim": "Maruf Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14367,
+    "Victim": "Md Masud",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 14376,
+    "Victim": "Md Rezaul Talukder",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14390,
+    "Victim": "Md Goni Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14436,
+    "Victim": "Md Babul Hawlader",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14447,
+    "Victim": "Md Sujan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14498,
+    "Victim": "Mohammad Abdur Rahman Jisan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14509,
+    "Victim": "Md Shahjahan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14535,
+    "Victim": "Md Emon Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14561,
+    "Victim": "Arif",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14626,
+    "Victim": "Md Mobarok Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14653,
+    "Victim": "MD Najmul Kaji",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 14662,
+    "Victim": "Shakil",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14673,
+    "Victim": "Shahjahan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 14690,
+    "Victim": "Tahidul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14719,
+    "Victim": "Khalid Hasan Saifullah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14726,
+    "Victim": "Md Wasim Sheikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 14808,
+    "Victim": "Kabir",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 14903,
+    "Victim": "Md Abuzar Sheikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 15534,
+    "Victim": "Md Golam Rabbani",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 15823,
+    "Victim": "Tarek Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 16692,
+    "Victim": "Md Farhad Hossain",
+    "District": "Magura",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 16933,
+    "Victim": "Hafizul Islam",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Ansar"
+  },
+  {
+    "MedicalCaseID": 17038,
+    "Victim": "Mobarak Hossen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17128,
+    "Victim": "Ridowan Sharif Riyad",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17182,
+    "Victim": "Md Ohid Miah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17232,
+    "Victim": "Md Monirul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17238,
+    "Victim": "Md Hridoy Howlader",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17251,
+    "Victim": "Md Sagor",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17261,
+    "Victim": "Mahmudul Hasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17310,
+    "Victim": "MEHERUN NESA",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17356,
+    "Victim": "Md Sohel Rana",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 17375,
+    "Victim": "Ashikur Rahman",
+    "District": "Kurigram",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 17401,
+    "Victim": "Md Al Amin Hosain Agomon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17515,
+    "Victim": "Md Siam Hossen",
+    "District": "Sirajganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17531,
+    "Victim": "Shihab Ahmed",
+    "District": "Sirajganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17541,
+    "Victim": "Md Yeahia Ali",
+    "District": "Sirajganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17577,
+    "Victim": "Roman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17694,
+    "Victim": "Sajib Sarker",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17708,
+    "Victim": "Musleh Uddin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 17734,
+    "Victim": "Rahat Hossen Shorif",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17786,
+    "Victim": "Md Selim Talukder",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17889,
+    "Victim": "Nasima Akter",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 17927,
+    "Victim": "Lija Akter",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 18259,
+    "Victim": "Md Fazlul Karim",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 18417,
+    "Victim": "Shofiqul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 18537,
+    "Victim": "Sadik",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 18730,
+    "Victim": "Towhid Sonnamat",
+    "District": "Madaripur",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 19504,
+    "Victim": "Rabiul Islam Rahul",
+    "District": "Dinajpur",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 19583,
+    "Victim": "Md Ripon Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 19638,
+    "Victim": "Shahriar Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 19702,
+    "Victim": "Md Kamar Uddin Kha",
+    "District": "Bogura",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 19893,
+    "Victim": "Reyaj Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "RAB"
+  },
+  {
+    "MedicalCaseID": 20056,
+    "Victim": "Nayeema Sultana",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20086,
+    "Victim": "Md Samiul Aman Nur",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20217,
+    "Victim": "Noyon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20288,
+    "Victim": "Yasin Ahmed Raaz",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20349,
+    "Victim": "Jahiduzzaman Tanvin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20357,
+    "Victim": "Hafej Md Jasim Uddin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20364,
+    "Victim": "Kowser Hossain",
+    "District": "Laxmipur",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 20375,
+    "Victim": "Md Abu Rayhan",
+    "District": "Bogura",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20385,
+    "Victim": "Md Sagor Hawlader",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20436,
+    "Victim": "Jahedul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20460,
+    "Victim": "Md Sajjad Hosen Sojal",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20689,
+    "Victim": "Md Jobair Bepary",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20768,
+    "Victim": "Ismail Hossain Rabbi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20781,
+    "Victim": "Md Shakil Hasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20784,
+    "Victim": "Abdul Rakib",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20800,
+    "Victim": "Md Shohel Rana",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20818,
+    "Victim": "Md Eyasir Sarker",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20822,
+    "Victim": "Md Rasel",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20836,
+    "Victim": "Md Rony",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20894,
+    "Victim": "Md Monowar Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20918,
+    "Victim": "Md Parvez Mea",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20926,
+    "Victim": "Sohag Miah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 20970,
+    "Victim": "Md Jamal Hossain Sikder",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 21169,
+    "Victim": "Mosharaf",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21179,
+    "Victim": "Md Anarul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 21184,
+    "Victim": "Md Akash",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21217,
+    "Victim": "Md Shuvo",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21269,
+    "Victim": "Md Rakib Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21270,
+    "Victim": "Manik Miah Sharik Chowdhury",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21274,
+    "Victim": "Monirul Islam Apu",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21275,
+    "Victim": "Abu Ishaque",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21276,
+    "Victim": "Md Resel Rana",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 21444,
+    "Victim": "Md Pabel Ahmed Kamrul",
+    "District": "Sylhet",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21455,
+    "Victim": "Joy Ahmed",
+    "District": "Sylhet",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21736,
+    "Victim": "Md Masum Billah",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 21739,
+    "Victim": "Romjan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 21755,
+    "Victim": "Omor Faruk",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21757,
+    "Victim": "Md Saiful Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21760,
+    "Victim": "Md Ali Hosen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21763,
+    "Victim": "Jakir Hossain",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 21785,
+    "Victim": "Muhammad Zan Sharif",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 21793,
+    "Victim": "Ahadun",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21794,
+    "Victim": "Sohag Miah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 21795,
+    "Victim": "Abdullah Al Mamun",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21882,
+    "Victim": "Md Rayhan Uddin",
+    "District": "Sylhet",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21940,
+    "Victim": "Mohammad Jubayer Ahmad",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22025,
+    "Victim": "Md Rukthon Mia",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Ansar"
+  },
+  {
+    "MedicalCaseID": 22043,
+    "Victim": "Sagor Gazi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22049,
+    "Victim": "Md Jasim Uddin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22071,
+    "Victim": "Md Dulal Sarder",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22081,
+    "Victim": "Md Rayhan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22087,
+    "Victim": "Md Mehedi Hassan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22094,
+    "Victim": "Md Nabin Talukkder",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22096,
+    "Victim": "Md Amin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22101,
+    "Victim": "Md Saidur Rahman Imran",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22226,
+    "Victim": "Md Yusuf",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22228,
+    "Victim": "Kamal Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22236,
+    "Victim": "Md Asadullah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22239,
+    "Victim": "Md Hafez Rabbi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22241,
+    "Victim": "Md Alamgir Molla",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22242,
+    "Victim": "Mohammad Alam",
+    "District": "Chattogram",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22246,
+    "Victim": "Oakil Ahmed Shihab",
+    "District": "Feni",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22249,
+    "Victim": "Md Ikram Hossin Kowsar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22250,
+    "Victim": "Md Rakibul Hosen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22252,
+    "Victim": "Md Tarek Ahmed",
+    "District": "Sylhet",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22253,
+    "Victim": "Ishtiak Ahmed",
+    "District": "Feni",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22254,
+    "Victim": "Md Sabuj",
+    "District": "Feni",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22260,
+    "Victim": "Md Zihad Hossen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22265,
+    "Victim": "Md Nabi Nur Morol",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22266,
+    "Victim": "Anwer Mia",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22267,
+    "Victim": "Md Milon",
+    "District": "Cumilla",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22268,
+    "Victim": "Md Irfan Bhuiyan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22269,
+    "Victim": "Alif Ahmed Sayem",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22270,
+    "Victim": "Md Sawon",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22272,
+    "Victim": "Imran Hasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22277,
+    "Victim": "Masum Miah",
+    "District": "Cumilla",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22281,
+    "Victim": "Kazi Md Abdur Rahman",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22284,
+    "Victim": "Md Minhaj Hossain",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22288,
+    "Victim": "Md Rafiqul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22291,
+    "Victim": "Rita Akter",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22292,
+    "Victim": "Shohag",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22305,
+    "Victim": "Tajuddin",
+    "District": "Sylhet",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22310,
+    "Victim": "Md Shahinur Mamud Sheikh",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Ansar"
+  },
+  {
+    "MedicalCaseID": 22315,
+    "Victim": "Md Siyam",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22321,
+    "Victim": "Touhidur Rahaman Rana",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22322,
+    "Victim": "Tamin Hridoy",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22323,
+    "Victim": "Md Moteur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22326,
+    "Victim": "Nur Alom",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22327,
+    "Victim": "Md Abu Sayed Miah",
+    "District": "Rangpur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22328,
+    "Victim": "Abdullah Al Johir",
+    "District": "Rangpur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22329,
+    "Victim": "Tofazzal Hossain",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22330,
+    "Victim": "Sajjad Hossen",
+    "District": "Rangpur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22331,
+    "Victim": "Zakir Hossain Sakib",
+    "District": "Feni",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22333,
+    "Victim": "Nisan Khan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22334,
+    "Victim": "Md Sujan Mia",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22341,
+    "Victim": "Mabrur Hossen Rabbi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22342,
+    "Victim": "Emon mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22344,
+    "Victim": "Arif Bepari",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22346,
+    "Victim": "Khobaib Ahmed",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22351,
+    "Victim": "Ahsan Kobir",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22352,
+    "Victim": "Al Amin Hosen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22355,
+    "Victim": "Hojrat Bellal",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Ansar"
+  },
+  {
+    "MedicalCaseID": 22356,
+    "Victim": "Md Mukttakin Billah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22357,
+    "Victim": "Abdur Rahman Gazi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22358,
+    "Victim": "Md Sohan Shah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22361,
+    "Victim": "Rasel Bokaul",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22362,
+    "Victim": "Ahad Ali Biswas",
+    "District": "Magura",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22363,
+    "Victim": "Md Muniruzzaman Molla",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22364,
+    "Victim": "Md Salauddin Sumon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22365,
+    "Victim": "Md Hasan Mia",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22366,
+    "Victim": "Sobhan Munsi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22367,
+    "Victim": "Shawon Mufti",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22370,
+    "Victim": "Solaiman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22375,
+    "Victim": "Md Asif Hasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22376,
+    "Victim": "Md Jony",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22377,
+    "Victim": "Md Sifat Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22379,
+    "Victim": "Anas Billah",
+    "District": "Satkhira",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22380,
+    "Victim": "Md Din Islam Bepari",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22381,
+    "Victim": "Kuddus Mia",
+    "District": "Kishoreganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22389,
+    "Victim": "Abul Kalam Azad",
+    "District": "Cumilla",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22393,
+    "Victim": "Md Merajul Islam",
+    "District": "Rangpur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22394,
+    "Victim": "Badhon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22395,
+    "Victim": "Md Sajan",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22397,
+    "Victim": "Md Abdullah Al Tahir",
+    "District": "Rangpur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22398,
+    "Victim": "Md Abu Jafar Hawlader",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22399,
+    "Victim": "Md TARIQUL ISLAM RUBEL",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22402,
+    "Victim": "Amir Hossen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22404,
+    "Victim": "Sheikh Fahmin Zafar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22411,
+    "Victim": "Shaikh As-ha-bul Yamin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22413,
+    "Victim": "Abdul Kadir",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22420,
+    "Victim": "Md Alam Sardar",
+    "District": "Satkhira",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22421,
+    "Victim": "Shahadat Hossain",
+    "District": "Chandpur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22427,
+    "Victim": "Rabbi Alom",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22430,
+    "Victim": "Shoikot Chondro De",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22432,
+    "Victim": "Md Biplab Mondal",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22433,
+    "Victim": "Md Tarek",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22435,
+    "Victim": "Md Mizanur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22438,
+    "Victim": "Md Redoan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22439,
+    "Victim": "Shohahur Rahman Manju",
+    "District": "Sirajganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22440,
+    "Victim": "Md Majharul Islam",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22441,
+    "Victim": "Md Abul Hossein Miji",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22446,
+    "Victim": "Jahirul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22447,
+    "Victim": "Abdur Rahman",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22449,
+    "Victim": "Jabir Ibrahim",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22452,
+    "Victim": "Md Shakil Anowar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22453,
+    "Victim": "Md Sujon Khan",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22454,
+    "Victim": "Md Sumon Sheikh",
+    "District": "Sirajganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22455,
+    "Victim": "Jasim Uddin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22456,
+    "Victim": "Md Abdur Goni",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22457,
+    "Victim": "Md SARWAR JAHAN MASUD",
+    "District": "Feni",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22458,
+    "Victim": "Md Mohosin",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "Army"
+  },
+  {
+    "MedicalCaseID": 22459,
+    "Victim": "Tanzil Mahmud Shujoy",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22460,
+    "Victim": "Sabbir Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22461,
+    "Victim": "Md Shohel",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22462,
+    "Victim": "Abul Basar",
+    "District": "Satkhira",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22464,
+    "Victim": "Md Ismail",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22466,
+    "Victim": "Md Rony",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22468,
+    "Victim": "Md Abdul Latif",
+    "District": "Sirajganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22469,
+    "Victim": "Md Faruk",
+    "District": "Chattogram",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22470,
+    "Victim": "Md Babu",
+    "District": "Cumilla",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22471,
+    "Victim": "Md Sajal Mia",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22472,
+    "Victim": "Shohidul Islam",
+    "District": "Chattogram",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22473,
+    "Victim": "Md Imran",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22475,
+    "Victim": "Md Ariful Mia",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Ansar"
+  },
+  {
+    "MedicalCaseID": 22476,
+    "Victim": "Md Naimur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22477,
+    "Victim": "Md Nazrul Islam",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22478,
+    "Victim": "Abu Taher Md Turab",
+    "District": "Sylhet",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22480,
+    "Victim": "Md Monzu Mina",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22483,
+    "Victim": "Md Labu",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22484,
+    "Victim": "Md Hossain",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22485,
+    "Victim": "Jamal Uddin Sheikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22487,
+    "Victim": "Md Robin Miya",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22488,
+    "Victim": "Md Rasel Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22489,
+    "Victim": "MD SUJUN MAHMUD",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22490,
+    "Victim": "JOBAYER OMAR KHAN",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22493,
+    "Victim": "RUBEL HOSSEN",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22494,
+    "Victim": "Arman Molla",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22496,
+    "Victim": "Md Adil",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22499,
+    "Victim": "As-Sabur",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22500,
+    "Victim": "SIFAT ULLAH",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22501,
+    "Victim": "Hasan Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22502,
+    "Victim": "Rafiqul Islam",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22503,
+    "Victim": "Sabbir Hasan",
+    "District": "Bogura",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22505,
+    "Victim": "Md Zillur Sardar",
+    "District": "Bogura",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22506,
+    "Victim": "Rashedul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22507,
+    "Victim": "Kamrul Miah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22508,
+    "Victim": "Md Shoriful Islam",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22509,
+    "Victim": "Farhan Fayaz Ratul",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22510,
+    "Victim": "Ifti Abdullah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22511,
+    "Victim": "Ala Uddin",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22514,
+    "Victim": "Md Mostak Ahmed",
+    "District": "Habiganj",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22515,
+    "Victim": "Wasim",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22516,
+    "Victim": "Raihan Rabbi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22518,
+    "Victim": "Zakaria Hasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22519,
+    "Victim": "Rayhanul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22520,
+    "Victim": "Md Tuhin",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22521,
+    "Victim": "Md Al Amin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22523,
+    "Victim": "Md Monir Hossain Raju",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22524,
+    "Victim": "Md Shakinur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22526,
+    "Victim": "Md Jahangir",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22527,
+    "Victim": "Aminul Islam Sabbir",
+    "District": "Cumilla",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22528,
+    "Victim": "Md Sohel",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22529,
+    "Victim": "Abdul Lotif",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22530,
+    "Victim": "Md Mahfuj",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22531,
+    "Victim": "Md Hridoy Hossain",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22533,
+    "Victim": "Md Tahir Zaman Priyo",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22537,
+    "Victim": "Saidul Islam Shovon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22538,
+    "Victim": "Ajmot ali",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22539,
+    "Victim": "Amirul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22541,
+    "Victim": "Awal Miya",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22543,
+    "Victim": "Younus Ali Shaon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22544,
+    "Victim": "Sheikh Md Shofikul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22547,
+    "Victim": "Jakir Hussain Rana",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22549,
+    "Victim": "Bayezid Bostami",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22550,
+    "Victim": "Reazul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22553,
+    "Victim": "Md Juwel Rana",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Ansar"
+  },
+  {
+    "MedicalCaseID": 22554,
+    "Victim": "Tonoy Chandra Das",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22555,
+    "Victim": "Md Sumon Hasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22557,
+    "Victim": "Abdul Ahad Saikat",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22558,
+    "Victim": "Bodiuzzaman",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22565,
+    "Victim": "Jobaid Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22566,
+    "Victim": "Nafisa Hossain Marwa",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22568,
+    "Victim": "Ripon Chondro Shil",
+    "District": "Habiganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22569,
+    "Victim": "Md Shakil",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22570,
+    "Victim": "Md Jalal Uddin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22574,
+    "Victim": "Mostafa Zaman Samudra",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22576,
+    "Victim": "Md Kowshar Mia",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22577,
+    "Victim": "Md Ishak Zamaddar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22578,
+    "Victim": "Mahfuz Alom Srabon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22579,
+    "Victim": "Md Tuhin",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22580,
+    "Victim": "Md Titu",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22582,
+    "Victim": "Parvez Hawlader",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22583,
+    "Victim": "Md Liton",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22584,
+    "Victim": "Abdullah Al Mamun",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Ansar"
+  },
+  {
+    "MedicalCaseID": 22585,
+    "Victim": "Al Amin Kholifa",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22586,
+    "Victim": "Md Amir Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22587,
+    "Victim": "Md Babul Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22588,
+    "Victim": "Md Ilim Hossain",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Ansar"
+  },
+  {
+    "MedicalCaseID": 22589,
+    "Victim": "Md Saju Islam",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22590,
+    "Victim": "Mamun Sardar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22591,
+    "Victim": "Md Jakir Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22592,
+    "Victim": "Rafiqul Sardar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22593,
+    "Victim": "Md Abdul Hannan Khan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22594,
+    "Victim": "Md Selim Hossain",
+    "District": "Bogura",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22596,
+    "Victim": "Rakib Howlader",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22597,
+    "Victim": "Jamshedur Rahman",
+    "District": "Cumilla",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22598,
+    "Victim": "Md Saiful Islam Tonmoy",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22603,
+    "Victim": "Md Saiful Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22605,
+    "Victim": "Mohammad Hasan",
+    "District": "Noakhali",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22608,
+    "Victim": "Md Arafat Hossain Akash",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22609,
+    "Victim": "Md Maruf Hosen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22610,
+    "Victim": "Md Iman Gazi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22612,
+    "Victim": "Hridoy Mia",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22613,
+    "Victim": "Md Mizanur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22614,
+    "Victim": "Md Bacchu Hawladar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22615,
+    "Victim": "Md Shahin Miah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22616,
+    "Victim": "Md Nayem",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22617,
+    "Victim": "Md Babu Mollah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22618,
+    "Victim": "Mohammad Sajib",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22620,
+    "Victim": "Juel Miah",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22621,
+    "Victim": "Md Monir Hossain",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22622,
+    "Victim": "Zillur Sheikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22623,
+    "Victim": "Md Shamim",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22624,
+    "Victim": "Md Bokul Miya",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22627,
+    "Victim": "Jaman Miah",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22628,
+    "Victim": "Tanbir Hosain Mahmud",
+    "District": "Noakhali",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22629,
+    "Victim": "Md Masud Rana",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22630,
+    "Victim": "Md Raihan Ali",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22631,
+    "Victim": "Faisal Sarkar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22632,
+    "Victim": "Maeen Uddin Prokash Yasin",
+    "District": "Noakhali",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22633,
+    "Victim": "Md Sayem Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22634,
+    "Victim": "Md Kamruzzaman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22635,
+    "Victim": "Md Ahmed Abdullah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22636,
+    "Victim": "Suhag Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22637,
+    "Victim": "A K M Shahidul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22638,
+    "Victim": "Ahsan Habib Tamim",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22639,
+    "Victim": "Mohammad Rayhan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22640,
+    "Victim": "Shakibul Hasan Saju",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22642,
+    "Victim": "Md Zakir Hossen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22643,
+    "Victim": "Md Mehedi",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22645,
+    "Victim": "Md Mamun Miah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22646,
+    "Victim": "Md Arif",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22647,
+    "Victim": "Md Nazmul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22648,
+    "Victim": "Md Mahim Hossain",
+    "District": "Kushtia",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22650,
+    "Victim": "Hafej Masudur Rahman Manik",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22651,
+    "Victim": "Md Soruj Ali",
+    "District": "Kushtia",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22653,
+    "Victim": "Majedul",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 22655,
+    "Victim": "Tofazzal Hossen Khan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22656,
+    "Victim": "Sumon Patwary",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22659,
+    "Victim": "Md Amjad",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22660,
+    "Victim": "Md Shohag",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22661,
+    "Victim": "Rakib Molla",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22664,
+    "Victim": "Yeasin",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22665,
+    "Victim": "Md Abu Chaied",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22667,
+    "Victim": "Md Mostofa",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Ansar"
+  },
+  {
+    "MedicalCaseID": 22668,
+    "Victim": "Md Emon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22669,
+    "Victim": "Md Fazle Rabbi",
+    "District": "Chattogram",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22670,
+    "Victim": "Md Siam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22676,
+    "Victim": "Md Hasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22677,
+    "Victim": "Md Rubel Mia",
+    "District": "Cumilla",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22679,
+    "Victim": "Rudro Sen",
+    "District": "Sylhet",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22680,
+    "Victim": "Md Sobuj",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22682,
+    "Victim": "Omar Faruk",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22683,
+    "Victim": "Md Alauddin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22685,
+    "Victim": "Mehedi Hasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22686,
+    "Victim": "Md Asadul Huq Babu",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22690,
+    "Victim": "Md Hossen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22692,
+    "Victim": "Saidul",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22694,
+    "Victim": "Sohel Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22696,
+    "Victim": "Md Sohel Rana",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22697,
+    "Victim": "Dipto De",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22698,
+    "Victim": "Md Nahid",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22699,
+    "Victim": "Md Sirajul Bepari",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22704,
+    "Victim": "Md Sumon Sikder",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22706,
+    "Victim": "Md Monir",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22707,
+    "Victim": "Tamim Shikder",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22708,
+    "Victim": "Md Hasibur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22710,
+    "Victim": "Nasib Hasan Rian",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22711,
+    "Victim": "Md Sawn Shikder",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22712,
+    "Victim": "Md Shahin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22713,
+    "Victim": "Md Jasim",
+    "District": "Bhola",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22716,
+    "Victim": "Mufti Shihabuddin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22719,
+    "Victim": "Rakib Bepari",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22721,
+    "Victim": "Md Shahin",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22723,
+    "Victim": "Akter Hosen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22725,
+    "Victim": "Md Atikur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22726,
+    "Victim": "Mosleh Uddin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22731,
+    "Victim": "Parvej Hossen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22732,
+    "Victim": "Md Babul Mridha",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22733,
+    "Victim": "Humaiyan Kabir",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22734,
+    "Victim": "Md Rubel Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22736,
+    "Victim": "Sumaiya Akhter",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22738,
+    "Victim": "Saad Al Afnan",
+    "District": "Laxmipur",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22739,
+    "Victim": "Md Mamun Khandoker",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22741,
+    "Victim": "Hamidur Rahman Sadman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22742,
+    "Victim": "Md Saiful Islam",
+    "District": "Mymensingh",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22743,
+    "Victim": "Abdul Kaium Ahad",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22744,
+    "Victim": "Md Masum Sheikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22745,
+    "Victim": "Roman Bepari",
+    "District": "Madaripur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22747,
+    "Victim": "Md Zubaid Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22748,
+    "Victim": "Md Mahin",
+    "District": "Chattogram",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22750,
+    "Victim": "Md Rubel",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22751,
+    "Victim": "Md Siyam Sarder (Zihad)",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22752,
+    "Victim": "Md Junayed Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22753,
+    "Victim": "Sumon Miah",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22756,
+    "Victim": "Md Imran Hossen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22757,
+    "Victim": "Md Milon Hawladar",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22759,
+    "Victim": "Shahadat Hossen Shawn",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22760,
+    "Victim": "Md Rakib Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22761,
+    "Victim": "Md Mahbubul Hasan",
+    "District": "Feni",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22765,
+    "Victim": "Iffat Hasan Khandakar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22767,
+    "Victim": "Md Sabbir Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22768,
+    "Victim": "Md Elias Hosain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22769,
+    "Victim": "Shakawat Hossian Shadat",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22770,
+    "Victim": "Md Ubydul Haque",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22771,
+    "Victim": "Bahadur Hossain Manir",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22772,
+    "Victim": "Mahmudul Hasan Rijbi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22773,
+    "Victim": "Md Nojibul Sarkar",
+    "District": "Joypurhat",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22774,
+    "Victim": "Foyaze",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22775,
+    "Victim": "Md Rayhan Ali",
+    "District": "Rajshahi",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22776,
+    "Victim": "Mehedi Hasan",
+    "District": "Joypurhat",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22777,
+    "Victim": "Md Hafizul Sikder",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22778,
+    "Victim": "Md Sazzad Hoshain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22780,
+    "Victim": "Md Mohiuddin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22782,
+    "Victim": "Md Osman Patwary",
+    "District": "Laxmipur",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22783,
+    "Victim": "Abdul Mutaleb",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22784,
+    "Victim": "Syed Muntasir Rahman Alif",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22785,
+    "Victim": "Md Atikul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22786,
+    "Victim": "Selim Ali Sheikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22788,
+    "Victim": "Syed Md Mostofa Kamal (Raju)",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22790,
+    "Victim": "Md Jashim Fakir",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "Ansar"
+  },
+  {
+    "MedicalCaseID": 22793,
+    "Victim": "Md Fazlu",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22794,
+    "Victim": "Azizul",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22795,
+    "Victim": "Mohammad Mahamodur Rahman Khan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22797,
+    "Victim": "Abdul Hannan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22799,
+    "Victim": "Moinul Islam",
+    "District": "Sylhet",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22800,
+    "Victim": "Md Abdul Aziz",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22801,
+    "Victim": "Md Zakir",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22802,
+    "Victim": "Md Rasel",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22803,
+    "Victim": "Eamin Chowdhury",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 22804,
+    "Victim": "Md Jahangir Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22805,
+    "Victim": "Azad Sarkar",
+    "District": "Chandpur",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22806,
+    "Victim": "Md Parvez Bepari",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22807,
+    "Victim": "Md Omar Faruk",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22809,
+    "Victim": "Md Sabuj",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 22815,
+    "Victim": "Md Nahidul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 22975,
+    "Victim": "Md Ramzan Ali",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 23010,
+    "Victim": "Shahinur Begum",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 23279,
+    "Victim": "Md Akkas Ali",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 23446,
+    "Victim": "Md Assadullah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 23490,
+    "Victim": "Saidul Islam",
+    "District": "Feni",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 23873,
+    "Victim": "Md Lal Miah",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 23881,
+    "Victim": "Shahariar Hasan Alvy",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 23892,
+    "Victim": "Md Fiorz Talukder",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 23951,
+    "Victim": "Md Biplob",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 23952,
+    "Victim": "Md Ikramul Haque",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 24069,
+    "Victim": "Tahmid Bhuiyan",
+    "District": "Narsingdi",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 24076,
+    "Victim": "Md Suman",
+    "District": "Magura",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24187,
+    "Victim": "Jaherul Islam Shuvo",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24280,
+    "Victim": "Mehedi Hasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24286,
+    "Victim": "Tanjir Khan Munna",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24310,
+    "Victim": "Md Jahid Hossan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 24338,
+    "Victim": "Foyzul Islam Rajon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24363,
+    "Victim": "Md Zihad Hossen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24385,
+    "Victim": "Shifat Hossen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24435,
+    "Victim": "Md Ibrahim",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24488,
+    "Victim": "Md Mirajul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24526,
+    "Victim": "Md Anower Hossen Patwory",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24527,
+    "Victim": "Md Mamun Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24528,
+    "Victim": "Sanjid Hossen Mreda",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24529,
+    "Victim": "Md Riton Uddin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24530,
+    "Victim": "Md Taufiqul Islam Bhuyia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24531,
+    "Victim": "Mamun Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24532,
+    "Victim": "Abdullah Bin Jahid",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24533,
+    "Victim": "Md Lablu Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24535,
+    "Victim": "Md Moslem Uddin Milon",
+    "District": "Rangpur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24536,
+    "Victim": "Manik Mia",
+    "District": "Rangpur",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24543,
+    "Victim": "Saiful Islam Arif",
+    "District": "Chattogram",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 24545,
+    "Victim": "Karimul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24546,
+    "Victim": "Md Miraj",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 24548,
+    "Victim": "Md Emon Hosen Akash",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 24568,
+    "Victim": "Md Hamed Shaikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24569,
+    "Victim": "Rahmat Miah",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 24570,
+    "Victim": "Md Amdadul Huq",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24574,
+    "Victim": "Md Yousuif",
+    "District": "Chattogram",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 24577,
+    "Victim": "Md Roman",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 24596,
+    "Victim": "Yeasin Sheikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24599,
+    "Victim": "Mohd. Sajidur Rohman Omor",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24606,
+    "Victim": "Md Nuruzzaman",
+    "District": "Lalmonirhat",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 24617,
+    "Victim": "Md Nayan Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 24619,
+    "Victim": "Abu Bokor Rifat",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24620,
+    "Victim": "Md Alamgir Sheikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 24629,
+    "Victim": "Md Mizanur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 24630,
+    "Victim": "Md Al Amin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24634,
+    "Victim": "Md Delwar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24635,
+    "Victim": "Md Rasel",
+    "District": "Gazipur",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 24642,
+    "Victim": "Md Abu Bakkar Siddik",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24644,
+    "Victim": "Sheikh Mahadi Hossen Junayed",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24648,
+    "Victim": "Abdullah Siddique",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 24649,
+    "Victim": "Md Rezaul Karim",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24655,
+    "Victim": "Sarwar Hossen Shaon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 24702,
+    "Victim": "Anas Miah",
+    "District": "Habiganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24721,
+    "Victim": "Md Shameem Ahsan Bhuiyan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24747,
+    "Victim": "Md Jashim Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24762,
+    "Victim": "Obaidul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24783,
+    "Victim": "Md Ashikul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 24797,
+    "Victim": "Miraz Hossen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24819,
+    "Victim": "Mohammad Abdul Jabbar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24825,
+    "Victim": "Md Abdul Hannan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24851,
+    "Victim": "Afiqul Islam Saad",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24860,
+    "Victim": "Maya Eslam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24869,
+    "Victim": "Md Ali",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24915,
+    "Victim": "Rabbi Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24920,
+    "Victim": "Md Mokhleshur Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24953,
+    "Victim": "Shaikh Shahriar Bin Matin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 24984,
+    "Victim": "Md Tajul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24986,
+    "Victim": "Mominul Islam Hridoy",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 24992,
+    "Victim": "Md Abdun Noor",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 25010,
+    "Victim": "Md Roni",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 25173,
+    "Victim": "Md Jasim",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 25177,
+    "Victim": "Md Shakil Hossen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 25181,
+    "Victim": "Md Sohag",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 25191,
+    "Victim": "Md Jewel",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 25219,
+    "Victim": "Md Shahabul Islam",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 25319,
+    "Victim": "Rana Talukdar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 25342,
+    "Victim": "Romiz Uddin Ahmed",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 25344,
+    "Victim": "Md Sagar",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 25906,
+    "Victim": "Md Rasel Gazi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 25914,
+    "Victim": "Md Shrabon Gazi",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 25932,
+    "Victim": "Hridoy Hosen",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 25936,
+    "Victim": "Syed Nazmul Hasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "BGB"
+  },
+  {
+    "MedicalCaseID": 26080,
+    "Victim": "Md Jonayed",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 26125,
+    "Victim": "Liton Hasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 26155,
+    "Victim": "Md Rohan Ahmed Khan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 26156,
+    "Victim": "Shahariar Khan Aanas",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 26159,
+    "Victim": "Nathimul Hasan Alem",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 26164,
+    "Victim": "Biplab Sheikh",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 26170,
+    "Victim": "Md Masum Reza",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 26203,
+    "Victim": "Md Monsur Mia",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 26247,
+    "Victim": "Shafakat Rahman",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 27783,
+    "Victim": "Md Riaz",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 28127,
+    "Victim": "Md Belal Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 30190,
+    "Victim": "Sha Masudur Rahman Jony",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 30191,
+    "Victim": "S.M. Sarfuddin",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 30206,
+    "Victim": "Mohammad Sazzad Hossain",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 30212,
+    "Victim": "Md Sakib Hasan",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 31790,
+    "Victim": "Md. Nadim",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-BGB"
+  },
+  {
+    "MedicalCaseID": 31808,
+    "Victim": "MD. MAHADI HASAN PRANTHO",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 33048,
+    "Victim": "Khokon",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 33604,
+    "Victim": "Ashikur Rahman",
+    "District": "Narayanganj",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 34681,
+    "Victim": "MD. ARAFAT HOSSAIN",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 34975,
+    "Victim": "RASEL MIA",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 35448,
+    "Victim": "MD. ASRAFUL ISLAM",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police-AL"
+  },
+  {
+    "MedicalCaseID": 35562,
+    "Victim": "Ashraful Islam Antor",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 21251,
+    "Victim": "Babul",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Awami League"
+  },
+  {
+    "MedicalCaseID": 22781,
+    "Victim": "Md Nuru",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  },
+  {
+    "MedicalCaseID": 35810,
+    "Victim": "Md Jasim",
+    "District": "Dhaka",
+    "AllegedPerpetrator": "Police"
+  }
+]

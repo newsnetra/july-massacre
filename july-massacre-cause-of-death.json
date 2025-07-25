@@ -1,0 +1,124 @@
+{
+  "Data": [
+    {
+      "Date": "16 July",
+      "Cause": { "Beaten": 0, "Shot": 5, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 5
+    },
+    {
+      "Date": "17 July",
+      "Cause": { "Beaten": 0, "Shot": 2, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 2
+    },
+    {
+      "Date": "18 July",
+      "Cause": { "Beaten": 1, "Shot": 50, "Others": 2, "Stabbed": 0 },
+      "GrandTotal": 53
+    },
+    {
+      "Date": "19 July",
+      "Cause": { "Beaten": 0, "Shot": 178, "Others": 1, "Stabbed": 0 },
+      "GrandTotal": 179
+    },
+    {
+      "Date": "20 July",
+      "Cause": { "Beaten": 0, "Shot": 66, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 66
+    },
+    {
+      "Date": "21 July",
+      "Cause": { "Beaten": 0, "Shot": 20, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 20
+    },
+    {
+      "Date": "22 July",
+      "Cause": { "Beaten": 0, "Shot": 2, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 2
+    },
+    {
+      "Date": "23 July",
+      "Cause": { "Beaten": 0, "Shot": 0, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 0
+    },
+    {
+      "Date": "24 July",
+      "Cause": { "Beaten": 0, "Shot": 0, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 0
+    },
+    {
+      "Date": "25 July",
+      "Cause": { "Beaten": 0, "Shot": 0, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 0
+    },
+    {
+      "Date": "26 July",
+      "Cause": { "Beaten": 0, "Shot": 0, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 0
+    },
+    {
+      "Date": "27 July",
+      "Cause": { "Beaten": 0, "Shot": 0, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 0
+    },
+    {
+      "Date": "28 July",
+      "Cause": { "Beaten": 0, "Shot": 0, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 0
+    },
+    {
+      "Date": "29 July",
+      "Cause": { "Beaten": 0, "Shot": 0, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 0
+    },
+    {
+      "Date": "30 July",
+      "Cause": { "Beaten": 0, "Shot": 0, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 0
+    },
+    {
+      "Date": "31 July",
+      "Cause": { "Beaten": 0, "Shot": 0, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 0
+    },
+    {
+      "Date": "1 August",
+      "Cause": { "Beaten": 0, "Shot": 0, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 0
+    },
+    {
+      "Date": "2 August",
+      "Cause": { "Beaten": 0, "Shot": 1, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 1
+    },
+    {
+      "Date": "3 August",
+      "Cause": { "Beaten": 0, "Shot": 2, "Others": 0, "Stabbed": 0 },
+      "GrandTotal": 2
+    },
+    {
+      "Date": "4 August",
+      "Cause": { "Beaten": 4, "Shot": 99, "Others": 3, "Stabbed": 2 },
+      "GrandTotal": 108
+    },
+    {
+      "Date": "5 August",
+      "Cause": { "Beaten": 3, "Shot": 260, "Others": 0, "Stabbed": 4 },
+      "GrandTotal": 267
+    }
+  ],
+  "Summary": {
+    "GrandTotal": {
+      "Cause": { "Beaten": 8, "Shot": 685, "Others": 6, "Stabbed": 6 },
+      "Total": 705
+    },
+    "Percentage": {
+      "Cause": {
+        "Beaten": "1.13%",
+        "Shot": "97.16%",
+        "Others": "0.85%",
+        "Stabbed": "0.85%"
+      },
+      "Total": "100.00%"
+    }
+  }
+}
