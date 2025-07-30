@@ -397,18 +397,19 @@
 
   <!-- NARRATIVE BLOCKS -->
   <div id="scroll-sections">
-    <div class="scroll-cover"><div class="scroll-text" data-day="16-Jul-2024">📅 July 16: The massacre begins.</div></div>
-    <div class="scroll-cover"><div class="scroll-text" data-day="17-Jul-2024">📅 July 17: Violence spreads in Dhaka.</div></div>
-    <div class="scroll-cover"><div class="scroll-text" data-day="18-Jul-2024">📅 July 18: Clashes intensify across districts.</div></div>
-    <div class="scroll-cover"><div class="scroll-text" data-day="19-Jul-2024">📅 July 19: Security forces deployed nationwide.</div></div>
-    <div class="scroll-cover"><div class="scroll-text" data-day="20-Jul-2024">📅 July 20: Curfew imposed in major cities.</div></div>
-    <div class="scroll-cover"><div class="scroll-text" data-day="21-Jul-2024">📅 July 21: Protesters defy curfew; arrests rise.</div></div>
-    <div class="scroll-cover"><div class="scroll-text" data-day="22-Jul-2024">📅 July 22: Media reports reveal casualties mounting.</div></div>
-    <div class="scroll-cover"><div class="scroll-text" data-day="2-Aug-2024">📅 Aug 2: Situation remains tense; sporadic clashes.</div></div>
-    <div class="scroll-cover"><div class="scroll-text" data-day="3-Aug-2024">📅 Aug 3: Human‑rights groups demand investigation.</div></div>
-    <div class="scroll-cover"><div class="scroll-text" data-day="4-Aug-2024">📅 Aug 4: Death toll confirmed at over 100.</div></div>
-    <div class="scroll-cover"><div class="scroll-text" data-day="5-Aug-2024">📅 Aug 5: Government announces inquiry commission.</div></div>
-  </div>
+
+<div class="scroll-cover"><div class="scroll-text" data-day="16-Jul-2024">📅 July 16: Abu Sayed and four others killed as Awami League’s student and youth wing attack.</div></div>
+    <div class="scroll-cover"><div class="scroll-text" data-day="17-Jul-2024">📅 July 17: Police excesses cause deaths in Jatrabari, people retaliate.</div></div>
+    <div class="scroll-cover"><div class="scroll-text" data-day="18-Jul-2024">📅 July 18: Violent crackdown begins as students from private universities and colleges block major roads demanding justice.</div></div>
+    <div class="scroll-cover"><div class="scroll-text" data-day="19-Jul-2024">📅 July 19: Massacre unfolds in Dhaka and other districts, as the government take a more militarised approach.</div></div>
+    <div class="scroll-cover"><div class="scroll-text" data-day="20-Jul-2024">📅 July 20: Curfew imposed in major cities.</div></div>
+    <div class="scroll-cover"><div class="scroll-text" data-day="21-Jul-2024">📅 July 21: Protesters defy curfew only to be killed; arrests rise.</div></div>
+    <div class="scroll-cover"><div class="scroll-text" data-day="22-Jul-2024">📅 July 22: Media reports reveal casualties mounting; violent incidents drop.</div></div>
+    <div class="scroll-cover"><div class="scroll-text" data-day="2-Aug-2024">📅 Aug 2: Situation remains tense; sporadic clashes claimed lives.</div></div>
+    <div class="scroll-cover"><div class="scroll-text" data-day="3-Aug-2024">📅 Aug 3: Street fights continue as human‑rights groups demand investigation.</div></div>
+    <div class="scroll-cover"><div class="scroll-text" data-day="4-Aug-2024">📅 Aug 4: Over a hundred killed in a day as armed Awami League cadres join security forces.</div></div>
+    <div class="scroll-cover"><div class="scroll-text" data-day="5-Aug-2024">📅 Aug 5: Thousands of people march to Dhaka as police open fire, killing hundreds; the regime collapsed.</div></div>
+</div>
 
   <!-- sentinel: triggers un‑stick when reached -->
   <div id="scrolly-end" style="height:1px;"></div>
@@ -583,7 +584,14 @@
 
 
                 <div class="credits">
-                    <p>Reporting and data analysis by Aaqib Md Shatil; editing by Nusmila Lohani; and design by Subinoy Mustofi Eron.</p>
+                <p>
+  Reporting and data analysis by 
+  <a href="https://netra.news/authors/aaqib-md-shatil-en/" target="_blank" rel="noopener">Aaqib Md Shatil</a>; 
+  editing by Nusmila Lohani; and design by 
+  <a href="https://netra.news/authors/subinoy/" target="_blank" rel="noopener">Subinoy Mustofi Eron</a>.
+</p>
+    
+                
                 </div>
 
 
@@ -633,199 +641,196 @@
 
 
 
-    <script>
-        const rowsPerPage = 7;
-        let currentPage = 1;
-        let fullData = [];
 
-        document.addEventListener('DOMContentLoaded', function () {
-            const tableBody = document.getElementById('victim-table-body');
-            const searchInput = document.getElementById('search');
-            const searchBtn = document.getElementById('search-btn');
-            const filterDistrict = document.getElementById('filter-district');
-            const filterPerp = document.getElementById('filter-perpetrator');
-            const filterRegion = document.getElementById('filter-region');
+<script>
+    const rowsPerPage = 7;
+    let currentPage = 1;
+    let fullData = [];
 
-            async function loadData() {
-                const res = await fetch('july-massacre-confirmed-list.json');
-                const data = await res.json();
-                fullData = data;
+    document.addEventListener('DOMContentLoaded', function () {
+        const tableBody = document.getElementById('victim-table-body');
+        const searchInput = document.getElementById('search');
+        const searchBtn = document.getElementById('search-btn');
+        const filterDistrict = document.getElementById('filter-district');
+        const filterPerp = document.getElementById('filter-perpetrator');
+        const filterRegion = document.getElementById('filter-region');
 
-                populateFilterOptions(data);
-                applyFiltersAndRender();
+        async function loadData() {
+            const res = await fetch('july-massacre-confirmed-list.json');
+            const data = await res.json();
+            fullData = data;
 
-                // Event listeners
-                searchBtn.addEventListener('click', applyFiltersAndRender);
-                searchInput.addEventListener('keypress', e => {
-                    if (e.key === 'Enter') applyFiltersAndRender();
-                });
-                filterDistrict.addEventListener('change', applyFiltersAndRender);
-                filterPerp.addEventListener('change', applyFiltersAndRender);
-                filterRegion.addEventListener('change', applyFiltersAndRender);
+            populateFilterOptions(data);
+            applyFiltersAndRender();
+
+            searchInput.addEventListener('keypress', e => {
+                if (e.key === 'Enter') applyFiltersAndRender();
+            });
+            filterDistrict.addEventListener('change', applyFiltersAndRender);
+            filterPerp.addEventListener('change', applyFiltersAndRender);
+            filterRegion.addEventListener('change', applyFiltersAndRender);
+        }
+
+        function populateFilterOptions(data) {
+            const districts = new Set();
+            const perpetrators = new Set();
+            const regions = new Set();
+
+            let hasRegion = false;
+
+            data.forEach(entry => {
+                if (entry.District) districts.add(entry.District);
+                if (entry.AllegedPerpetrator) perpetrators.add(entry.AllegedPerpetrator);
+                if (entry.Region && entry.Region.trim() !== '') {
+                    regions.add(entry.Region);
+                    hasRegion = true;
+                }
+            });
+
+            if (!hasRegion) {
+                document.getElementById('filter-region').parentElement.style.display = 'none';
             }
 
-            function populateFilterOptions(data) {
-                const districts = new Set();
-                const perpetrators = new Set();
-                const regions = new Set();
+            fillSelect(filterDistrict, districts);
+            fillSelect(filterPerp, perpetrators);
+            fillSelect(filterRegion, regions);
+        }
 
-                let hasRegion = false;
+        function fillSelect(select, values) {
+            [...values].sort().forEach(value => {
+                const option = document.createElement('option');
+                option.value = value;
+                option.textContent = value;
+                select.appendChild(option);
+            });
+        }
 
-                data.forEach(entry => {
-                    if (entry.District) districts.add(entry.District);
-                    if (entry.AllegedPerpetrator) perpetrators.add(entry.AllegedPerpetrator);
-                    if (entry.Region && entry.Region.trim() !== '') {
-                        regions.add(entry.Region);
-                        hasRegion = true;
-                    }
-                });
+        function applyFiltersAndRender() {
+            const query = searchInput.value.toLowerCase();
+            const selectedDistrict = filterDistrict.value;
+            const selectedPerp = filterPerp.value;
+            const selectedRegion = filterRegion.value;
 
-                if (!hasRegion) {
-                    document.getElementById('filter-region').parentElement.style.display = 'none';
-                }
+            const filtered = fullData.filter(entry => {
+                const matchesSearch =
+                    entry.Victim.toLowerCase().includes(query) ||
+                    entry.District.toLowerCase().includes(query) ||
+                    entry.AllegedPerpetrator.toLowerCase().includes(query);
 
+                const matchesDistrict = !selectedDistrict || entry.District === selectedDistrict;
+                const matchesPerp = !selectedPerp || entry.AllegedPerpetrator === selectedPerp;
+                const matchesRegion = !selectedRegion || entry.Region === selectedRegion;
 
-                fillSelect(filterDistrict, districts);
-                fillSelect(filterPerp, perpetrators);
-                fillSelect(filterRegion, regions);
+                return matchesSearch && matchesDistrict && matchesPerp && matchesRegion;
+            });
+
+            renderPaginatedRows(filtered, 1);
+        }
+
+        function renderPaginatedRows(data, page) {
+            currentPage = page;
+            const start = (page - 1) * rowsPerPage;
+            const end = start + rowsPerPage;
+            const sliced = data.slice(start, end);
+
+            tableBody.innerHTML = '';
+            sliced.forEach(entry => {
+                const row = `
+                    <tr>
+                        <td class="medical-id">${String(entry.MedicalCaseID).padStart(3, '0')}</td>
+                        <td class="victim">${entry.Victim}</td>
+                        <td>${entry.Region || entry.District}</td>
+                        <td>${entry.AllegedPerpetrator}</td>
+                    </tr>
+                `;
+                tableBody.insertAdjacentHTML('beforeend', row);
+            });
+
+            renderPagination(data.length);
+        }
+
+        function renderPagination(totalRows) {
+            const pagination = document.querySelector('.pagination');
+            const totalPages = Math.ceil(totalRows / rowsPerPage);
+            pagination.innerHTML = '';
+
+            if (totalPages <= 1) return;
+
+            const makePageButton = (page, label = null) => {
+                const span = document.createElement('span');
+                span.textContent = label || page;
+                if (page === currentPage) span.style.fontWeight = 'bold';
+                span.style.cursor = 'pointer';
+                span.onclick = () => applyFiltersAndRenderWithPage(page);
+                return span;
+            };
+
+            const maxPagesToShow = 6;
+            let startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
+            let endPage = startPage + maxPagesToShow - 1;
+
+            if (endPage > totalPages) {
+                endPage = totalPages;
+                startPage = Math.max(1, endPage - maxPagesToShow + 1);
             }
 
-            function fillSelect(select, values) {
-                [...values].sort().forEach(value => {
-                    const option = document.createElement('option');
-                    option.value = value;
-                    option.textContent = value;
-                    select.appendChild(option);
-                });
+            if (currentPage > 1) {
+                pagination.append(makePageButton(currentPage - 1, '<'));
             }
 
-            function applyFiltersAndRender() {
-                const query = searchInput.value.toLowerCase();
-                const selectedDistrict = filterDistrict.value;
-                const selectedPerp = filterPerp.value;
-                const selectedRegion = filterRegion.value;
-
-                const filtered = fullData.filter(entry => {
-                    const matchesSearch =
-                        entry.Victim.toLowerCase().includes(query) ||
-                        entry.District.toLowerCase().includes(query) ||
-                        entry.AllegedPerpetrator.toLowerCase().includes(query);
-
-                    const matchesDistrict = !selectedDistrict || entry.District === selectedDistrict;
-                    const matchesPerp = !selectedPerp || entry.AllegedPerpetrator === selectedPerp;
-                    const matchesRegion = !selectedRegion || entry.Region === selectedRegion;
-
-                    return matchesSearch && matchesDistrict && matchesPerp && matchesRegion;
-                });
-
-                renderPaginatedRows(filtered, 1);
-            }
-
-            function renderPaginatedRows(data, page) {
-                currentPage = page;
-                const start = (page - 1) * rowsPerPage;
-                const end = start + rowsPerPage;
-                const sliced = data.slice(start, end);
-
-                tableBody.innerHTML = '';
-                sliced.forEach(entry => {
-
-                    const row = `
-  <tr>
-    <td>${String(entry.MedicalCaseID).padStart(3, '0')}</td>
-    <td class="victim">${entry.Victim}</td>
-    <td>${entry.District}</td>
-    <td>${entry.AllegedPerpetrator}</td>
-  </tr>
-`;
-                    tableBody.insertAdjacentHTML('beforeend', row);
-                });
-
-                renderPagination(data.length);
-            }
-
-            function renderPagination(totalRows) {
-                const pagination = document.querySelector('.pagination');
-                const totalPages = Math.ceil(totalRows / rowsPerPage);
-                pagination.innerHTML = '';
-
-                if (totalPages <= 1) return;
-
-                const makePageButton = (page, label = null) => {
-                    const span = document.createElement('span');
-                    span.textContent = label || page;
-                    if (page === currentPage) span.style.fontWeight = 'bold';
-                    span.style.cursor = 'pointer';
-                    span.onclick = () => applyFiltersAndRenderWithPage(page);
-                    return span;
-                };
-
-                const maxPagesToShow = 6;
-                let startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
-                let endPage = startPage + maxPagesToShow - 1;
-
-                if (endPage > totalPages) {
-                    endPage = totalPages;
-                    startPage = Math.max(1, endPage - maxPagesToShow + 1);
-                }
-
-                if (currentPage > 1) {
-                    pagination.append(makePageButton(currentPage - 1, '<'));
-                }
-
-                if (startPage > 1) {
-                    pagination.append(makePageButton(1));
-                    if (startPage > 2) {
-                        const ellipsis = document.createElement('span');
-                        ellipsis.textContent = '…';
-                        pagination.append(ellipsis);
-                    }
-                }
-
-                for (let i = startPage; i <= endPage; i++) {
-                    pagination.append(makePageButton(i));
-                }
-
-                if (endPage < totalPages) {
-                    if (endPage < totalPages - 1) {
-                        const ellipsis = document.createElement('span');
-                        ellipsis.textContent = '…';
-                        pagination.append(ellipsis);
-                    }
-                    pagination.append(makePageButton(totalPages));
-                }
-
-                if (currentPage < totalPages) {
-                    pagination.append(makePageButton(currentPage + 1, '>'));
+            if (startPage > 1) {
+                pagination.append(makePageButton(1));
+                if (startPage > 2) {
+                    const ellipsis = document.createElement('span');
+                    ellipsis.textContent = '…';
+                    pagination.append(ellipsis);
                 }
             }
 
-
-            function applyFiltersAndRenderWithPage(page) {
-                const query = searchInput.value.toLowerCase();
-                const selectedDistrict = filterDistrict.value;
-                const selectedPerp = filterPerp.value;
-                const selectedRegion = filterRegion.value;
-
-                const filtered = fullData.filter(entry => {
-                    const matchesSearch =
-                        entry.Victim.toLowerCase().includes(query) ||
-                        entry.District.toLowerCase().includes(query) ||
-                        entry.AllegedPerpetrator.toLowerCase().includes(query);
-
-                    const matchesDistrict = !selectedDistrict || entry.District === selectedDistrict;
-                    const matchesPerp = !selectedPerp || entry.AllegedPerpetrator === selectedPerp;
-                    const matchesRegion = !selectedRegion || entry.Region === selectedRegion;
-
-                    return matchesSearch && matchesDistrict && matchesPerp && matchesRegion;
-                });
-
-                renderPaginatedRows(filtered, page);
+            for (let i = startPage; i <= endPage; i++) {
+                pagination.append(makePageButton(i));
             }
 
-            loadData();
-        });
-    </script>
+            if (endPage < totalPages) {
+                if (endPage < totalPages - 1) {
+                    const ellipsis = document.createElement('span');
+                    ellipsis.textContent = '…';
+                    pagination.append(ellipsis);
+                }
+                pagination.append(makePageButton(totalPages));
+            }
+
+            if (currentPage < totalPages) {
+                pagination.append(makePageButton(currentPage + 1, '>'));
+            }
+        }
+
+        function applyFiltersAndRenderWithPage(page) {
+            const query = searchInput.value.toLowerCase();
+            const selectedDistrict = filterDistrict.value;
+            const selectedPerp = filterPerp.value;
+            const selectedRegion = filterRegion.value;
+
+            const filtered = fullData.filter(entry => {
+                const matchesSearch =
+                    entry.Victim.toLowerCase().includes(query) ||
+                    entry.District.toLowerCase().includes(query) ||
+                    entry.AllegedPerpetrator.toLowerCase().includes(query);
+
+                const matchesDistrict = !selectedDistrict || entry.District === selectedDistrict;
+                const matchesPerp = !selectedPerp || entry.AllegedPerpetrator === selectedPerp;
+                const matchesRegion = !selectedRegion || entry.Region === selectedRegion;
+
+                return matchesSearch && matchesDistrict && matchesPerp && matchesRegion;
+            });
+
+            renderPaginatedRows(filtered, page);
+        }
+
+        loadData();
+    });
+</script>
+
 
     <script>
         const ctx = document.getElementById('deathTollChart').getContext('2d');
@@ -974,11 +979,11 @@
                         pieTotal[key] += d.Cause[key];
                     }
                 });
+const sorted = Object.entries(pieTotal).sort((a, b) => b[1] - a[1]);
+const pieLabels = sorted.map(d => d[0]);
+const pieData = sorted.map(d => d[1]);
 
-                const pieLabels = Object.keys(pieTotal);
-                const pieData = Object.values(pieTotal);
-
-                const pieColors = ['#DED5D5', '#F12945', '#F6959E', '#B00000'];
+const pieColors = ['#B00000', '#F12945', '#F6959E', '#DED5D5'];
 
 
                 new Chart(document.getElementById('barChart').getContext('2d'), {
@@ -1044,28 +1049,29 @@
             values,
             textinfo: "label+value",
             hoverinfo: "skip",                        // no hover events
+            
             marker: {
-                colors: values,
-                opacity: 0,                             // (ignored by treemap, safe to keep)
-                colorscale: [
-    [0.0, '#DED5D5'],
-    [0.2, '#B89B9B'],
-    [0.4, '#F12945'],
-    [0.6, '#F6959E'],
-    [0.8, '#B00000'],
-    [1.0, '#E40000']
-],
+    colors: values,
+    opacity: 0,
+    colorscale: [
+        [0.0, '#CCCCCC'],   // light gray
+        [0.2, '#D99999'],
+        [0.4, '#E06666'],
+        [0.6, '#CC3333'],
+        [0.8, '#B30000'],
+        [1.0, '#800000']    // deep red
+    ],
+    colorbar: {
+        title: "Fatalities",
+        orientation: "h",
+        x: 0.5, xanchor: "center", y: 1.15,
+        len: 0.8, thickness: 20, outlinewidth: 0,
+        tickfont: { family: "ibm-plex-mono", size: 12, color: "#000" },
+        titlefont: { family: "ibm-plex-mono", size: 12, color: "#000" }
+    },
+    line: { width: 0 }
+}
 
-                colorbar: {
-                    title: "Fatalities",
-                    orientation: "h",
-                    x: 0.5, xanchor: "center", y: 1.15,
-                    len: 0.8, thickness: 20, outlinewidth: 0,
-                    tickfont: { family: "ibm-plex-mono", size: 12, color: "#000" },
-                    titlefont: { family: "ibm-plex-mono", size: 12, color: "#000" }
-                },
-                line: { width: 0 }
-            }
         }];
 
         const layout = {

@@ -72,13 +72,6 @@ header {
 }
 
 
-.policeIgp {
-    max-width: 850px;
-    display: block;
-    margin-left: auto;
-    margin-right: 275px;
-}
-
 .hero {
     position: relative;
     background: black;
@@ -108,7 +101,6 @@ header {
     position: absolute;
     max-width: 220px;
     object-fit: cover;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
 }
 
 .img1 {
@@ -156,6 +148,14 @@ header {
 }
 
 
+h2 {
+        font-family: 'veneer-two', sans-serif;
+        font-weight: normal;
+    font-style: normal;
+    color: red;
+    font-size: 3rem;
+}
+
 .headline {
     position: absolute;
     bottom: 1.5rem;
@@ -169,9 +169,8 @@ header {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    line-height: 1.1;
+    line-height: 0.9;
     pointer-events: none;
-    text-shadow: 1px 1px 2px black;
     font-weight: normal;
     font-style: normal;
     -webkit-font-smoothing: none;
@@ -224,13 +223,14 @@ header {
 
 article {
 
-    padding: 1rem 1rem 0;
+
     margin: auto;
 }
 
 .article-text {
     max-width: 675px;
     margin: auto;
+        padding: 1rem 1rem 0;
 }
 
 p {
@@ -868,6 +868,9 @@ canvas#perpetratorChart {
     border-top: 1px solid #333;
 }
 
+a {
+    color: red;
+}
 
 
 
@@ -1134,4 +1137,38 @@ code {
 
 .social-icons-m a {
     background: none;
+}
+
+
+
+@media (max-width: 768px) {
+  #perpetratorChart {
+    max-width: 100% !important;
+  }
+}
+
+
+
+
+@media (max-width: 849px) {
+  .policeIgp {
+    max-width: 100% !important;
+  }
+}
+
+.policeIgp {
+    max-width: 850px;
+    display: block;
+    margin-left: auto;
+    margin-right: 275px;
+}
+
+@media (max-width: 499px) {
+  .medical-id {
+    display: none;
+  }
+
+  th:nth-child(1) {
+    display: none;
+  }
 }
