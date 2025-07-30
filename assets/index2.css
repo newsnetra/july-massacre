@@ -370,10 +370,7 @@ tbody tr.highlight .victim {
     font-weight: bold;
 }
 
-/* table ends */
 
-
-/* chart 1 begins */
 
 .chart-wrapper {
 
@@ -401,7 +398,7 @@ tbody tr.highlight .victim {
     margin-bottom: 1rem;
 }
 
-/* chart 1 ends */
+
 
 
 
@@ -442,7 +439,6 @@ tbody tr.highlight .victim {
 
 
 
-/* chart block begins */
 
 .methods-section {
     font-family: 'utopia-std', serif;
@@ -468,20 +464,17 @@ tbody tr.highlight .victim {
     margin-bottom: 2rem;
 }
 
-/* Two-column layout for pie + side panel */
 .bottom-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
-/* Left: pie chart */
 .pie-container {
     background: #f3f3f3;
     padding: 2rem;
     text-align: center;
     width: 100%;
-    /* ensures it fills its half */
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -491,9 +484,7 @@ tbody tr.highlight .victim {
 
 .pie-container canvas {
     width: 100% !important;
-    /* force canvas to adapt */
     max-width: 320px;
-    /* optional: cap it for balance */
     height: auto !important;
 }
 
@@ -504,7 +495,6 @@ tbody tr.highlight .victim {
     font-size: 0.9rem;
 }
 
-/* Right: stacked blocks */
 .right-panel {
     display: flex;
     flex-direction: column;
@@ -559,12 +549,6 @@ tbody tr.highlight .victim {
     font-size: 0.95rem;
 }
 
-
-
-
-/* heatmap begins */
-
-
 .heatmap-section {
     font-family: 'utopia-std', serif;
     padding: 2rem 1rem;
@@ -593,7 +577,6 @@ tbody tr.highlight .victim {
     font-family: 'ibm-plex-mono', monospace !important;
 }
 
-/* heatmap ends */
 
 #gen-chart {
     display: grid;
@@ -615,7 +598,7 @@ tbody tr.highlight .victim {
 .dot-grid {
     display: grid;
     grid-template-columns: repeat(7, 14px);
-    /* Max 10 per row */
+
     gap: 6px;
     justify-content: center;
     justify-items: center;
@@ -639,7 +622,7 @@ tbody tr.highlight .victim {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     column-gap: 3rem;
-    /* horizontal spacing between generation blocks */
+
     row-gap: 2rem;
     justify-items: center;
     max-width: 1000px;
@@ -659,7 +642,7 @@ tbody tr.highlight .victim {
     justify-content: center;
     row-gap: 6px;
     column-gap: 6px;
-    /* tight circle spacing */
+
 }
 
 
@@ -717,7 +700,7 @@ tbody tr.highlight .victim {
 }
 
 
-/* Stacked chart wrapper */
+
 .perpetrator-chart-section {
     font-family: 'ibm-plex-mono', serif;
     padding: 2rem 1rem;
@@ -751,44 +734,71 @@ canvas#perpetratorChart {
 
 
 
-/* map code begins */
+
+#scrolly {
+    position: relative;
+}
 
 
- #scrolly{position:relative;}
+#map-container {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9f9;
+    z-index: 0;
+}
 
-  /* centred sticky map */
-  #map-container{
-    position:sticky;top:0;height:100vh;
-    display:flex;align-items:center;justify-content:center;
-    background:#f9f9f9;z-index:0;
-  }
-  #bd-map{width:800px;height:800px;}
+#bd-map {
+    width: 800px;
+    height: 800px;
+}
 
-  /* narrative column above the map (mouse goes thru wrapper) */
-  #scroll-sections{
-    pointer-events:none; /* allow hover on map */
-    max-width:600px;margin:0 auto;
-    position:relative;z-index:1;
-  }
-  .scroll-cover{min-height:100vh;display:flex;align-items:center;justify-content:center;}
+#scroll-sections {
+    pointer-events: none;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
 
-  /* individual text card */
-  .scroll-text{
-    pointer-events:auto; /* re‑enable interaction for text */
-    font-family:'ibm-plex-mono',monospace;
-    border:1px solid #000;padding:2rem 1.5rem;max-width:500px;text-align:center;
-  }
-  /* date pill */
-  .scroll-text::before{
-    content:attr(data-day);
-    display:table;margin:0 auto 1rem;padding:0.4rem 1rem;
-    border:1px solid #000;border-radius:999px;font-weight:500;font-size:1rem;
-  }
+.scroll-cover {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-  /* tooltip */
-  #tooltip{position:absolute;display:none;
-    background:#fff;border:1px solid #999;padding:.4rem .6rem;
-    font:0.9rem/1.35 'utopia-std',serif;pointer-events:none;
-  }
 
-/* map code ends */
+.scroll-text {
+    pointer-events: auto;
+    font-family: 'ibm-plex-mono', monospace;
+    border: 1px solid #000;
+    padding: 2rem 1.5rem;
+    max-width: 500px;
+    text-align: center;
+}
+
+.scroll-text::before {
+    content: attr(data-day);
+    display: table;
+    margin: 0 auto 1rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid #000;
+    border-radius: 999px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+#tooltip {
+    position: absolute;
+    display: none;
+    background: #fff;
+    border: 1px solid #999;
+    padding: .4rem .6rem;
+    font: 0.9rem/1.35 'utopia-std', serif;
+    pointer-events: none;
+}
