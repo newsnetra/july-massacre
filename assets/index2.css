@@ -695,6 +695,34 @@ tbody tr.highlight .victim {
 
 }
 
+/* --- quick CSS tooltip --- */
+.gen-block {                   /* parent already flex‑column */
+  position: relative;          /* create a containing block for ::after */
+}
+
+.gen-block::after {            /* the tooltip bubble */
+  content: attr(data-tooltip); /* pull text from the data attribute */
+  position: absolute;
+  bottom: 105%;               /* sit above the card */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(51,51,51,0.9);
+  color: #fff;
+  font-family: 'ibm-plex-mono', monospace;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;        /* ignore mouse */
+  transition: opacity 0.15s ease;
+}
+
+.gen-block:hover::after {
+  opacity: 1;                  /* reveal on hover */
+}
+
+
 
 .perpetrators {
     display: grid;

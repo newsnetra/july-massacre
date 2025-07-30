@@ -844,9 +844,11 @@
                     'Jul 28', 'Jul 29', 'Jul 30', 'Jul 31', 'Aug 1', 'Aug 2',
                     'Aug 3', 'Aug 4', 'Aug 5'
                 ],
+
+                
                 datasets: [{
                     label: 'Daily Deaths',
-                    data: [5, 4, 65, 160, 65, 20, 8, 5, 3, 3, 5, 7, 4, 4, 4, 4, 7, 8, 6, 78, 240],
+                    data: [5, 2, 53, 179, 66, 20, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 108, 267],
                     borderColor: '#cc0000',
                     borderWidth: 3,
                     pointBackgroundColor: '#cc0000',
@@ -1130,39 +1132,47 @@ const pieColors = ['#B00000', '#F12945', '#F6959E', '#DED5D5'];
         });
     </script>
 
-    <script>
-        // 1 dot = 10 victims
-        const UNIT = 10;
 
-        fetch('july-massacre-generations.json')
-            .then(res => res.json())
-            .then(data => {
-                const chart = document.getElementById('gen-chart');
+<script>
+  // 1 dot = 10 victims
+  const UNIT = 10;
 
-                data.forEach(gen => {
-                    const block = document.createElement('div');
-                    block.className = 'gen-block';
+  fetch('july-massacre-generations.json')
+    .then(res => res.json())
+    .then(data => {
+      const chart = document.getElementById('gen-chart');
 
-                    const grid = document.createElement('div');
-                    grid.className = 'dot-grid';
+      data.forEach(gen => {
+        /* card wrapper */
+        const block = document.createElement('div');
+        block.className = 'gen-block';
 
-                    const dots = Math.round(gen.Victims / UNIT);
-                    for (let i = 0; i < dots; i++) {
-                        const dot = document.createElement('span');
-                        dot.className = 'dot';
-                        grid.appendChild(dot);
-                    }
+        /* 👉 store the percentage in a data‑attribute for CSS tooltip */
+        block.setAttribute('data-tooltip', `${gen.Percentage}% of total`);
 
-                    const label = document.createElement('p');
-                    label.className = 'gen-label';
-                    label.textContent = gen.Generation;
+        /* grid of dots */
+        const grid = document.createElement('div');
+        grid.className = 'dot-grid';
 
-                    block.appendChild(grid);
-                    block.appendChild(label);
-                    chart.appendChild(block);
-                });
-            });
-    </script>
+        const dots = Math.round(gen.Victims / UNIT);
+        for (let i = 0; i < dots; i++) {
+          const dot = document.createElement('span');
+          dot.className = 'dot';
+          grid.appendChild(dot);
+        }
+
+        /* label */
+        const label = document.createElement('p');
+        label.className = 'gen-label';
+        label.textContent = gen.Generation;
+
+        /* assemble */
+        block.appendChild(grid);
+        block.appendChild(label);
+        chart.appendChild(block);
+      });
+    });
+</script>
 
 
 <script>
