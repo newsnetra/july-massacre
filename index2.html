@@ -297,26 +297,33 @@
                 <div class="bottom-grid">
                     <div class="pie-container">
                         <canvas id="pieChart" width="300" height="300"></canvas>
-                        <div class="legend">
-                            <p>Shot: 27 &nbsp;&nbsp; Stabbed: 23 &nbsp;&nbsp; Beaten: 25 &nbsp;&nbsp; Others: 35</p>
-                        </div>
+                       <div class="legend">
+
+                        <span>Beaten <strong>1.13%</strong></span>; 
+<span>Shot <strong>97.16%</strong></span>; 
+<span>Others <strong>0.85%</strong></span>; 
+<span>Stabbed <strong>0.85%</strong></span>
+
+
+
+                       </div>
                     </div>
                     <div class="right-panel">
                         <div class="chart-summary">
                             <div class="count-square">
-                                <div class="big-number">907</div>
+                                <div class="big-number">685</div>
                                 <div class="label">Shot</div>
                             </div>
                             <div class="count-square">
-                                <div class="big-number">907</div>
+                                <div class="big-number">06</div>
                                 <div class="label">Stabbed</div>
                             </div>
                             <div class="count-square">
-                                <div class="big-number">907</div>
+                                <div class="big-number">08</div>
                                 <div class="label">Beaten</div>
                             </div>
                             <div class="count-square">
-                                <div class="big-number">907</div>
+                                <div class="big-number">06</div>
                                 <div class="label">Others</div>
                             </div>
                         </div>
@@ -1166,14 +1173,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const colorMap = {
         "RAB": "#DED5D5",
-        "Police": "#B89B9B",
-        "Police-BGB": "#F12945",
+        "Police": "#F12945",
+        "Police-BGB": "#B89B9B",
         "Police-AL": "#F6959E",
         "BGB": "#B00000",
         "Awami League": "#E40000",
-        "Army": "#5b0f00",
-        "Ansar": "#fcd04f",
-        "Magistrate": "#f6ff9f"
+        "Army": "#CC0000",
+        "Ansar": "#EB6C6E",
+        "Magistrate": "#660000"
       };
 
       const datasets = categories.map(category => ({
@@ -1249,6 +1256,14 @@ Promise.all([
   rows=json.map(r=>{const o={};for(const[k,v] of Object.entries(r)){const val=k==='District'?v.trim():(v===''?0:+v);o[k.trim()]=val; if(k!=='District'&&!dayKeys.includes(k.trim())) dayKeys.push(k.trim());}return o;});
   buildIndex(); drawMap(); initObserver();
 });
+const customColors = d3.scaleLinear()
+  .domain([
+    0.0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875, 1.0
+  ])
+  .range([
+    '#CC0000', '#EB6C6E', '#660000', '#DED5D5', '#B89B9B',
+    '#F12945', '#F6959E', '#B00000', '#E40000'
+  ]);
 
 const svg=d3.select('#bd-map');
 const path=d3.geoPath().projection(d3.geoMercator().center([90.4,23.7]).scale(4500).translate([400,400]));
@@ -1269,19 +1284,41 @@ function drawMap(){
 }
 
 function updateMap(day){
-  const vals=dayLookup[day]||{}; const max=d3.max(Object.values(vals));
-  const col=d3.scaleSequential([0,max||1],d3.interpolateYlOrRd);
+  const vals = dayLookup[day] || {};
+  const max = d3.max(Object.values(vals));
+
+  const customColors = d3.scaleLinear()
+    .domain([
+      0.0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875, 1.0
+    ])
+    .range([
+      '#CC0000', '#EB6C6E', '#660000', '#DED5D5', '#B89B9B',
+      '#F12945', '#F6959E', '#B00000', '#E40000'
+    ]);
+
+  const col = v => {
+    if (!v || v === 0) return '#ccc'; // gray for missing/zero
+    return customColors(v / (max || 1));
+  };
+
   svg.selectAll('path').transition().duration(400)
-    .attr('fill',function(){return col(vals[this.dataset.canon]||0);});
+    .attr('fill', function() {
+      return col(vals[this.dataset.canon] || 0);
+    });
+
   svg.selectAll('path')
-    .on('mouseover',function(e,d){
-      d3.select(this).attr('stroke-width',2).raise();
-      tip.html(`<strong>${dName(d.properties)}</strong><br>${vals[this.dataset.canon]||0}`)
-         .style('display','block');
+    .on('mouseover', function(e, d) {
+      d3.select(this).attr('stroke-width', 2).raise();
+      tip.html(`<strong>${dName(d.properties)}</strong><br>${vals[this.dataset.canon] || 0}`)
+         .style('display', 'block');
     })
-    .on('mousemove',e=> tip.style('left',e.pageX+12+'px').style('top',e.pageY-28+'px'))
-    .on('mouseleave',function(){d3.select(this).attr('stroke-width',0.5);tip.style('display','none');});
+    .on('mousemove', e => tip.style('left', e.pageX + 12 + 'px').style('top', e.pageY - 28 + 'px'))
+    .on('mouseleave', function() {
+      d3.select(this).attr('stroke-width', 0.5);
+      tip.style('display', 'none');
+    });
 }
+
 
 // scroll‑triggered day change
 function initObserver(){

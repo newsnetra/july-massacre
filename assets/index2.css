@@ -961,7 +961,7 @@ canvas#perpetratorChart {
     transition: all 0.1s linear;
     font-weight: normal;
     background-color: #f9f9f9;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'ibm-plex-mono', sans-serif;
     border: none;
     cursor: pointer;
