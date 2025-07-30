@@ -26,7 +26,6 @@ header {
   margin-top: 0.2rem;
   border: 2px double #E40000;
   border-radius: 4px;
-  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
   background: rgba(228, 0, 0, 0.05);
   display: inline-block;
 }
@@ -254,7 +253,7 @@ h2 {
     display: inline;
     white-space: nowrap;
 }
-.list ul li a, .credits p a, .author-name a {
+.list ul li a, .credits p a, .author-name a, .social-icons a, .social-icons-m a, .netra-logo a {
     text-decoration-line:none;
     border-bottom: none;
 }
@@ -1221,6 +1220,7 @@ code {
 
 .social-icons a {
     background: none;
+    
 }
 
 .social-icons-m a {
