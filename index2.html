@@ -886,19 +886,25 @@
                         }
                     },
                     y: {
-                        beginAtZero: true,
-                        grid: {
-                            color: '#eee',
-                            lineWidth: 0.5,
-                            borderDash: [4, 4] // dashed horizontal grid lines
-                        },
-                        ticks: {
-                            font: {
-                                family: "'ibm-plex-mono', monospace",
-                                size: 12
-                            }
-                        }
-                    }
+  min: -50,              // Lower bound to lift 0 up
+  beginAtZero: true,     // Still allows nice tick generation
+  grid: {
+    color: '#eee',
+    lineWidth: 0.5,
+    borderDash: [4, 4]
+    // Chart.js v3+ removed zeroLineColor support
+  },
+  ticks: {
+    font: {
+      family: "'ibm-plex-mono', monospace",
+      size: 12
+    },
+    callback: function(value) {
+      return value < 0 ? '' : value; // Hide tick labels below 0
+    }
+  }
+}
+
                 },
                 plugins: {
                     legend: { display: false },
@@ -944,7 +950,7 @@
                     // Draw bottom gray bar
                     ctx.save();
                     ctx.fillStyle = '#e0e0e0';
-                    ctx.fillRect(chartArea.left, yBottom + 15, chartArea.width, 20);
+                    ctx.fillRect(chartArea.left, yBottom + 0, chartArea.width, 20);
                     ctx.restore();
 
                     // Draw dots above each tick + label boxes
