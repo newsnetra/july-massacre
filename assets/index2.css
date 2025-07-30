@@ -490,9 +490,11 @@ tbody tr.highlight .victim {
 .stats-container {
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 2.5rem;
     padding: 2rem 1rem;
     flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
 }
 
 .stat-box {
@@ -500,8 +502,8 @@ tbody tr.highlight .victim {
     color: white;
     padding: 3rem 2rem;
     text-align: center;
-    width: 240px;
-    min-height: 240px;
+    width: 200px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
