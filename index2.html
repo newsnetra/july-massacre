@@ -42,6 +42,36 @@
 
     <header>
 
+        <div class="header-bar">
+    <div class="netra-logo">
+      <a href="https://netra.news/tags/interactive/" target="_blank" title="Visit Netra News Interactive">
+        <img class="nav-logo" alt="Netra News Logo" src="./assets/photos/netraintractvlogo.svg">
+      </a>
+    </div>
+
+    <div class="social-icons">
+      <div class="facebook">
+        <li class="facebook-share">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://interactive.netra.news/minority-representation-bangladesh-public-services/" target="_blank" rel="noreferrer" class="svelte-1ouj9qo">
+            <svg viewBox="0 0 14 26" fill="none" preserveAspectRatio="xMidYMid meet" class="fb-logo" style="color: #000;">
+              <path d="M13.2237 13.9747H8.82474V25.75H4.13073V13.9747H0V9.87083H4.18437V4.88177C4.18437 2.41406 6.00833 0 9.20026 0H13.5456V4.72083H10.6487C9.25391 4.72083 8.77109 4.88177 8.77109 6.06198V9.84401H13.7333L13.2237 13.9747Z" fill="currentColor"></path>
+            </svg>
+          </a>
+        </li>
+      </div>
+
+      <div class="twitter">
+        <li class="twitter-share">
+          <a href="https://twitter.com/intent/tweet?url=https://interactive.netra.news/minority-representation-bangladesh-public-services/&amp;text=Unlike South Asia, Bangladesh Makes Room for Minorities — Just Not in Military @NetraNews" target="_blank" rel="noreferrer" class="svelte-1ouj9qo">
+            <svg class="twitter-logo" data-icon="twitter" style="color: #000;" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.99079 12.1721L0 1H7.12135L12.6713 7.9051L18.6005 1.03109H22.5226L14.5676 10.2645L24 22H16.8999L10.8905 14.5326L4.47476 21.9793H0.531444L8.99079 12.1721ZM17.9348 19.93L4.36657 3.06999H6.08565L19.6368 19.93H17.9348Z" fill="currentColor"></path>
+            </svg>
+          </a>
+        </li>
+      </div>
+    </div>
+  </div>
+
         <div class="hero"
             style="mask-image: url('./assets/photos/Paper Rip.svg'); -webkit-mask-image: url('./assets/photos/Paper Rip.svg');">
             <div class="images">
@@ -486,7 +516,14 @@
                             src="./others.webp"><span>19</span><span>OTHERS</span></div>
                 </div>
 
-                <h2>Methodology and notes of discrepancies</h2>
+
+
+<div id="app">
+      <h3 class="method-title">Methodology and notes of discrepancies</h3>
+      <div class="box" id="expandingBox">
+        <div class="content" id="boxContent" style="--max-height: 150px;">
+          <div class="methodology">
+
                 <p>To comply with the official definition of martyrs, according to the “July Mass Uprising Martyrs’
                     Families and Injured Students-Citizens Welfare and Rehabilitation Ordinance, 2025”, issued on June
                     17th, 2025, in this analysis, we have considered only the victims who lost their lives in
@@ -527,42 +564,19 @@
                 <blockquote>On July 1st, 2025, the interim government added 10 more names to the list of 834 martyrs.
                     However, Netra News was unable to reach the families after repeated calls.</blockquote>
 
+          </div>
+
+        </div>
+        <div class="toggle">
+          <button type="button" id="toggleBtn">Expand +</button>
+        </div>
+      </div>
+
+    </div>
 
 
-                <div class="method">
-                    <h2>Methodology and Notes</h2>
-
-
-                    <p>To comply with the official definition of martyrs, according to the July
-                        Mass Uprising Martyrs’ Families and Injured Students Citizens Welfare and
-                        Rehabilitation Ordinance, 2025 , issued on June 17th, 2025, in this analysis,
-                        we have considered only the victims who lost their lives in state backed
-                        excesses by security forces and Awami League men. However, the list released
-                        by the government does not fully comply with its own ‘martyr’ criteria. </p>
-
-                    <p>Netra News collected the list of victims from the gazette that mentioned 834
-                        names, and reached out to the families to collect the location where the
-                        victims were injured, the cause of their deaths, the alleged perpetrators,
-                        their age and political affiliation. We verified the information from at
-                        least two news articles published in national and, in some cases, local
-                        newspapers. </p>
-
-                    <p>On July 1st, 2025, the interim government added 10 more names to the list of 834 martyrs.
-                        However,
-                        Netra News was unable to reach the families after repeated calls.</p>
-                </div>
-
-                <div class="credit">
-                    <p>Reporting, data analysis, and web development by Nazmul Ahasan, who has
-                        tackled the project as a Master of Journalism student at UC Berkeley Graduate
-                        School of Journalism; research by Nazmul Ahasan, Jahidur Rahman, Miraj Ahmed,
-                        Toriqur Rahman, Tahmidul Islam and Mohammad Ali, data visualization by Nazmul
-                        Ahasan, Peter Aldhous and Kamal Hosein, graphic design and illustration by
-                        Netra News, web design by Nazmul Ahasan and Netra News.Web design and
-                        visualization editing by Soo Oh, lecturer at UC Berkeley Graduate School of
-                        Journalism and Data Editor at The Markup, Yoli Martinez, lecturer at UC
-                        Berkeley and Visual Storytelling Engineer at The Washington Post, and Peter
-                        Aldhous, former lecturer of data journalism at UC Berkeley.</p>
+                <div class="credits">
+                    <p>Reporting and data analysis by Aaqib Md Shatil; editing by Nusmila Lohani; and design by Subinoy Mustofi Eron.</p>
                 </div>
 
 
@@ -570,12 +584,45 @@
         </article>
     </main>
 
-    <footer>
+   <div id="footer">
+    <div id="footer-inner">
+      <div class="logo">
+        <img src="./assets/photos/netralogo.svg" alt="Netra News Logo" width="250" height="25">
+        <p>Reportage, debate, analysis</p>
+      </div>
+      <div class="lists">
+        <div class="list">
+          <h3>About</h3>
+          <ul>
+            <li><a href="https://netra.news/2019/journalism-on-behalf-of-the-people/" target="_blank" title="Read about Netra News's editorial mission">Editorial Mission</a></li>
+            <li><a href="https://netra.news/about/" target="_blank" title="Learn more about Netra News">About</a></li>
+            <li><a href="https://netra.news/privacy/" target="_blank" title="View Netra News’s privacy policy">Privacy
+                Policy</a></li>
+            <li><a href="https://netra.news/contact/" target="_blank" title="Contact Netra News">Contact</a></li>
+          </ul>
+        </div>
+        <div class="list">
+          <h3>Coverage</h3>
+          <ul>
+            <li><a href="https://netra.news/tags/netra-report/" target="_blank" title="Browse Netra News investigations">Investigations</a></li>
+            <li><a href="https://netra.news/tags/column/" target="_blank" title="Read columns published on Netra News">Column</a></li>
+            <li><a href="https://netra.news/tags/analysis/" target="_blank" title="Explore explainers from Netra News">Explainer</a></li>
+            <li><a href="https://medium.com/@NetraNews" target="_blank" title="Visit Netra News’s blog on Medium">Blog</a></li>
+          </ul>
+        </div>
+        <div class="list">
+          <h3>Social</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/newsnetra" target="_blank" title="Follow Netra News on Facebook">Facebook</a></li>
+            <li><a href="https://twitter.com/netranews" target="_blank" title="Follow Netra News on X (formerly Twitter)">X</a></li>
+            <li><a href="https://www.youtube.com/netranews" target="_blank" title="Watch Netra News on YouTube">YouTube</a></li>
+            <li><a href="https://www.instagram.com/netra.news/" target="_blank" title="Follow Netra News on Instagram">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
 
-        XXXX
-
-    </footer>
-
+    </div>
+  </div>
 
 
 
@@ -924,7 +971,8 @@
                 const pieLabels = Object.keys(pieTotal);
                 const pieData = Object.values(pieTotal);
 
-                const pieColors = ['#ffcc00', '#ff6600', '#cc0000', '#990000']; // yellow to deep red
+                const pieColors = ['#DED5D5', '#F12945', '#F6959E', '#B00000'];
+
 
                 new Chart(document.getElementById('barChart').getContext('2d'), {
                     type: 'bar',
@@ -932,7 +980,7 @@
                         labels: barLabels,
                         datasets: [{
                             data: barData,
-                            backgroundColor: '#ccc',
+                            backgroundColor: '#B89B9B', // or any from your 6-color palette
                             borderRadius: 2
                         }]
                     },
@@ -992,7 +1040,15 @@
             marker: {
                 colors: values,
                 opacity: 0,                             // (ignored by treemap, safe to keep)
-                colorscale: [[0, 'yellow'], [0.5, 'orange'], [1, 'red']],
+                colorscale: [
+    [0.0, '#DED5D5'],
+    [0.2, '#B89B9B'],
+    [0.4, '#F12945'],
+    [0.6, '#F6959E'],
+    [0.8, '#B00000'],
+    [1.0, '#E40000']
+],
+
                 colorbar: {
                     title: "Fatalities",
                     orientation: "h",
@@ -1109,12 +1165,12 @@ document.addEventListener('DOMContentLoaded', () => {
       ];
 
       const colorMap = {
-        "RAB": "#000000",
-        "Police": "#990000",
-        "Police-BGB": "#f07b72",
-        "Police-AL": "#ff6d01",
-        "BGB": "#666666",
-        "Awami League": "#ff0000",
+        "RAB": "#DED5D5",
+        "Police": "#B89B9B",
+        "Police-BGB": "#F12945",
+        "Police-AL": "#F6959E",
+        "BGB": "#B00000",
+        "Awami League": "#E40000",
         "Army": "#5b0f00",
         "Ansar": "#fcd04f",
         "Magistrate": "#f6ff9f"
@@ -1243,6 +1299,39 @@ function initObserver(){
 })();
 </script>
 
+
+<script>
+    // show more tab //
+    document.addEventListener('DOMContentLoaded', function () {
+      const expandingBox = document.getElementById('expandingBox');
+      const boxContent = document.getElementById('boxContent');
+      const toggleBtn = document.getElementById('toggleBtn');
+
+      let isOpen = false; // Initial state: closed
+      const closedHeight = getComputedStyle(boxContent).getPropertyValue("--closed-height").trim();
+
+      // Set initial closed state
+      boxContent.style.setProperty("--max-height", closedHeight);
+
+      toggleBtn.addEventListener('click', toggle);
+
+      function toggle() {
+        if (!isOpen) {
+          boxContent.style.setProperty("--max-height", `${boxContent.scrollHeight}px`);
+          toggleBtn.textContent = "Collapse —";
+        } else {
+          boxContent.style.setProperty("--max-height", closedHeight);
+          toggleBtn.textContent = "Expand +";
+        }
+
+        isOpen = !isOpen;
+      }
+    });
+
+
+</script>
+
 </body>
 
 </html>
+
