@@ -254,7 +254,7 @@ h2 {
     display: inline;
     white-space: nowrap;
 }
-.author-name a {
+.list ul li a, .credits p a, .author-name a {
     text-decoration-line:none;
     border-bottom: none;
 }
@@ -942,6 +942,7 @@ canvas#perpetratorChart {
     margin: 3rem auto;
     padding: 1rem;
     border-top: 1px solid #333;
+    text-align: center;
 }
 
 a {
