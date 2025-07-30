@@ -25,7 +25,6 @@ header {
   margin-right: 0.5rem;
   margin-top: 0.2rem;
   border: 2px double #E40000;
-  border-radius: 4px;
   background: rgba(228, 0, 0, 0.05);
   display: inline-block;
 }
