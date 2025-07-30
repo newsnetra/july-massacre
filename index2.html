@@ -496,7 +496,11 @@
                     to ascertain whose shots took the lives of the victims.</p>
             </div>
 
+            <div class="pcontainer">
             <img class="policeIgp" alt="Police" src="./assets/photos/policeIGP.JPG"></div>
+</div>
+
+
 
 
 
@@ -1296,14 +1300,19 @@ const dName=p=> p.ADM2_EN||p.DIST_NAME||p.NAME_2||p.NAME_1||p.NAME_0||'';
 function buildIndex(){ dayKeys.forEach(day=>{const o={};rows.forEach(r=>o[canon(r.District)]=r[day]||0);dayLookup[day]=o;}); }
 
 function drawMap(){
-  svg.attr('viewBox','0 0 800 800');
+  const isSmallPortrait = window.innerWidth < 500 && window.innerHeight > window.innerWidth;
+  svg.attr('viewBox', isSmallPortrait ? '150 200 500 500' : '0 0 800 800');
+
   svg.selectAll('path').data(geoData.features).join('path')
-    .attr('d',path)
-    .attr('stroke','#999').attr('stroke-width',0.5)
-    .attr('data-canon',d=>canon(dName(d.properties)));
-  const first=dayKeys.find(d=>d3.max(rows,r=>r[d])>0)||dayKeys[0];
+    .attr('d', path)
+    .attr('stroke', '#999')
+    .attr('stroke-width', 0.5)
+    .attr('data-canon', d => canon(dName(d.properties)));
+
+  const first = dayKeys.find(d => d3.max(rows, r => r[d]) > 0) || dayKeys[0];
   updateMap(first);
 }
+
 
 function updateMap(day){
   const vals = dayLookup[day] || {};
