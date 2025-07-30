@@ -704,7 +704,7 @@ tbody tr.highlight .victim {
     font-family: 'ibm-plex-mono', monospace;
     font-size: 14px;
     margin-top: 0.75rem;
-    text-align: center;
+    text-align: left;
 }
 
 .generation-grid {
