@@ -719,33 +719,32 @@ tbody tr.highlight .victim {
 
 /* Stacked chart wrapper */
 .perpetrator-chart-section {
-  font-family: 'ibm-plex-mono', serif;
-  padding: 2rem 1rem;
-  border-top: 1px solid #999;
-  max-width: 900px;
-  margin: auto;
+    font-family: 'ibm-plex-mono', serif;
+    padding: 2rem 1rem;
+    border-top: 1px solid #999;
+    max-width: 900px;
+    margin: auto;
 }
 
 .perpetrator-chart-section h2 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
 }
 
 .perpetrator-chart-section p {
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-  max-width: 720px;
-  color: #444;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    max-width: 720px;
+    color: #444;
 }
 
 #perpetratorChart {
-  max-width: 900px !important;
-  height: 500px !important;
-  margin: auto;
+    max-width: 900px !important;
+    height: 500px !important;
+    margin: auto;
 }
 
 canvas#perpetratorChart {
-  font-family: 'ibm-plex-mono', monospace !important;
+    font-family: 'ibm-plex-mono', monospace !important;
 }
-
