@@ -16,7 +16,7 @@ header {
     top: 0;
     height: 30px;
     width: 100%;
-    background: #f0f0f0;
+    background: #f9f9f9;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -933,7 +933,7 @@ canvas#perpetratorChart {
     text-align: center;
     font-weight: 600;
     border-top: 1px solid transparent;
-    padding: 10px 0;
+        padding: 2rem 0 0;
     box-shadow: 0 -30px 40px transparent;
     position: relative;
     transition: all 0.1s ease;
@@ -960,7 +960,7 @@ canvas#perpetratorChart {
     padding: 0.8rem 1.5rem;
     transition: all 0.1s linear;
     font-weight: normal;
-    background-color: #f0f0f0;
+    background-color: #f9f9f9;
     font-size: 1.5rem;
     font-family: 'ibm-plex-mono', sans-serif;
     border: none;
@@ -1059,7 +1059,7 @@ code {
 
 
 #footer {
-    background-color: #f0f0f0;
+    background-color: #f9f9f9;
     color: #000;
     padding: 40px;
     margin: auto;
