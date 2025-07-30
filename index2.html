@@ -30,8 +30,8 @@
     <link rel="stylesheet" href="./assets/index2.css" />
     <link rel="stylesheet" href="https://use.typekit.net/blr3ccp.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
 
     <title>Sample HTML Page</title>
 </head>
@@ -301,6 +301,19 @@
                     armed with military-grade weapons, sharp machetes, and blunt objects. Notably, half of the victims
                     who suffered fatal injuries leading to their deaths were harmed by these Awami League members or
                     armed cadres backed by the party, allegedly killing 86.</p>
+
+                   </div>
+
+<div class="heatmap-section">
+  <h2 class="heatmap-title">Geographic Distribution of Violence</h2>
+  <p class="heatmap-subtitle">
+    Spatial analysis of fatalities across districts and administrative zones during the July Massacre
+  </p>
+  <div id="heatmapChart" style="width:100%; max-width:1000px; height:600px;"></div>
+</div>
+
+
+<div class="article-text">
                 <p>On August 5th, at least 268 people suffered fatal injuries; some died on that day, and others
                     succumbed to their injuries in the following months.</p>
                 <h2>July 18: ‘The Core Committee’</h2>
@@ -351,9 +364,13 @@
                 <p>However, it is likely that many family members of the victims may not be aware of their political
                     affiliations, as they lived far away from them; hence, the number is not accurate and might not
                     capture the full extent of the parties’ loss during the protests.</p>
-                <div>
-                   
+           
+                   </div>
                     
+<!-- chart container -->
+<div id="gen-chart"></div>
+
+<div class="article-text">
                 <p>Even so, it provides a crucial pattern.</p>
                 <p>Our analysis shows that, though a member of BNP’s student wing, Chhatra Dal, died on July 16th, the
                     party started losing its activists in large numbers from July 19th. It lost 25 of its activists and
@@ -375,8 +392,14 @@
                     August 5th. In 61 cases, police worked with the BGB to shoot at the protesters, and given the
                     complex nature of the situation, it has been extremely difficult for the witnesses and journalists
                     to ascertain whose shots took the lives of the victims.</p>
+                    </div>
                 
+<img class="policeIgp" alt="Police" src="./assets/photos/policeIGP.JPG"></div>
+
+
                     
+<div class="article-text">
+
                 <p>It is also likely that the witnesses might have used police interchangeably to describe the members
                     of the security forces in some cases.</p>
                 <p>According to our analysis, at least 43 victims died as a result of coordinated attacks by the Awami
@@ -384,20 +407,20 @@
                     reported that the army shot the victims. On August 4th, during a protest in Sherpur, a government
                     official's car struck and killed at least two protesters.</p>
                 
-                    <!-- <div class="images">
+                    <div class="perpetrators">
                     <div class="perpetrator-image"><img alt="Police"
-                            src="police.webp"><span>467</span><span>POLICE</span></div>
+                            src="./police.webp"><span>467</span><span>POLICE</span></div>
                     <div class="perpetrator-image"><img alt="Awami League"
-                            src="Awami League.webp"><span>86</span><span>AWAMI LEAGUE</span></div>
+                            src="./Awami League.webp"><span>86</span><span>AWAMI LEAGUE</span></div>
                     <div class="perpetrator-image"><img alt="Border Guard Bangladesh"
-                            src="police-al.webp"><span>63</span><span>POLICE-BGB</span></div>
+                            src="./police-al.webp"><span>63</span><span>POLICE-BGB</span></div>
                     <div class="perpetrator-image"><img alt="Bangladesh Army"
-                            src="bgb.webp "><span>43</span><span>POLICE-AL</span></div>
+                            src="./bgb.webp "><span>43</span><span>POLICE-AL</span></div>
                     <div class="perpetrator-image"><img alt="Government Officials"
-                            src="police bgb.webp"><span>27</span><span>BGB</span></div>
+                            src="./police bgb.webp"><span>27</span><span>BGB</span></div>
                     <div class="perpetrator-image"><img alt="Others"
-                            src="others.webp"><span>19</span><span>OTHERS</span></div>
-                </div> -->
+                            src="./others.webp"><span>19</span><span>OTHERS</span></div>
+                </div>
 
                 <h2>Methodology and notes of discrepancies</h2>
                 <p>To comply with the official definition of martyrs, according to the “July Mass Uprising Martyrs’
@@ -815,8 +838,6 @@ options: {
 });
 </script>
 
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
 fetch('july-massacre-cause-of-death.json')
   .then(res => res.json())
@@ -890,6 +911,124 @@ const barData = nonZero.map(d => d.GrandTotal);
   });
 </script>
 
+
+<script>
+const values = [107, 66, 62, 56, 40, 36, 25, 19];
+const labels = ["Wari", "Uttara", "Mirpur", "Gulshan", "Motijhil",
+                "Tejgaon", "Ramna", "Lalbagh"];
+
+const data = [{
+  type: "treemap",
+  labels,
+  parents: Array(values.length).fill(""),
+  values,
+  textinfo: "label+value",
+  hoverinfo: "skip",                        // no hover events
+  marker: {
+    colors: values,
+    opacity: 0,                             // (ignored by treemap, safe to keep)
+    colorscale: [[0,'yellow'],[0.5,'orange'],[1,'red']],
+    colorbar: {
+      title: "Fatalities",
+      orientation: "h",
+      x: 0.5, xanchor: "center", y: 1.15,
+      len: 0.8, thickness: 20, outlinewidth: 0,
+      tickfont:  { family: "ibm-plex-mono", size: 12, color: "#000" },
+      titlefont: { family: "ibm-plex-mono", size: 12, color: "#000" }
+    },
+    line: { width: 0 }
+  }
+}];
+
+const layout  = {
+  margin: { t:0, l:0, r:0, b:0 },
+  paper_bgcolor: "rgba(0,0,0,0)",
+  plot_bgcolor:  "rgba(0,0,0,0)"
+};
+
+const config  = {
+  displayModeBar: false,
+  displaylogo:   false,
+  responsive:    true,
+  staticPlot:    true                    // disables hover / click
+};
+
+Plotly.newPlot("heatmapChart", data, layout, config).then(() => {
+
+  /* centre every label */
+  document.querySelectorAll('#heatmapChart .slice').forEach(slice => {
+    const path = slice.querySelector('path.surface');
+    const txt  = slice.querySelector('text.slicetext');
+    if (path && txt) {
+      const m = path.getAttribute('d').match(/M([\d.]+),([\d.]+)L([\d.]+),([\d.]+)/);
+      if (m) {
+        const [,x1,y1,x2,y2] = m.map(Number);
+        const cx = (x1+x2)/2, cy = (y1+y2)/2;
+        requestAnimationFrame(() => {
+          const h = txt.getBBox().height || 0;
+          txt.setAttribute('transform', `translate(${cx},${cy+h/2})`);
+          txt.setAttribute('text-anchor', 'middle');
+        });
+      }
+    }
+  });
+
+  /* one-time style cleanup */
+  document.querySelectorAll('#heatmapChart path.surface').forEach((p, idx) => {
+    let s = p.getAttribute('style') || '';
+
+    /* remove strokes */
+    s = s
+      .replace(/stroke:\s*[^;]+;/gi,'')
+      .replace(/stroke-width:\s*[^;]+;/gi,'')
+      .replace(/stroke-opacity:\s*[^;]+;/gi,'');
+
+    /* if this path is the dark-grey filler block, make it transparent */
+    if (/rgb\(68,\s*68,\s*68\)/i.test(s)) {
+      s = s.replace(/rgb\(68,\s*68,\s*68\)/gi,'transparent');
+      s = /fill-opacity:/i.test(s)
+            ? s.replace(/fill-opacity:\s*[^;]+;/i,'fill-opacity: 0;')
+            : s + ' fill-opacity: 0;';
+    }
+
+    p.setAttribute('style', s.trim());
+  });
+});
+</script>
+
+<script>
+// 1 dot = 10 victims
+const UNIT = 10;
+
+fetch('july-massacre-generations.json')
+  .then(res => res.json())
+  .then(data => {
+    const chart = document.getElementById('gen-chart');
+
+    data.forEach(gen => {
+      const block = document.createElement('div');
+      block.className = 'gen-block';
+
+      const grid = document.createElement('div');
+      grid.className = 'dot-grid';
+
+      const dots = Math.round(gen.Victims / UNIT);
+      for (let i = 0; i < dots; i++) {
+        const dot = document.createElement('span');
+        dot.className = 'dot';
+        grid.appendChild(dot);
+      }
+
+      const label = document.createElement('p');
+      label.className = 'gen-label';
+      label.textContent = gen.Generation;
+
+      block.appendChild(grid);
+      block.appendChild(label);
+      chart.appendChild(block);
+    });
+  });
+</script>
 
 </body>
 

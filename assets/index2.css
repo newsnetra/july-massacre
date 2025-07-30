@@ -8,6 +8,13 @@ header {
     height: 50vh;
 }
 
+.policeIgp {
+  max-width: 850px;
+  display: block;
+  margin-left: auto;
+  margin-right: 275px;
+}
+
 .hero {
     position: relative;
     background: black;
@@ -515,7 +522,7 @@ tbody tr.highlight .victim {
 
 .big-number {
   font-family: 'veneer-two', sans-serif;
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: #cc0000;
   margin-bottom: 0.5rem;
 }
@@ -551,3 +558,150 @@ tbody tr.highlight .victim {
 
 
 /* chart block ends */
+
+
+
+/* heatmap begins */
+
+
+.heatmap-section {
+  font-family: 'utopia-std', serif;
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+  background: none;
+  border: none;
+}
+.heatmap-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+.heatmap-subtitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+#heatmapChart .slice.cursor-pointer {
+  cursor: pointer;
+}
+.heatmap-section text.slicetext {
+  font-family: 'ibm-plex-mono', monospace !important;
+}
+/* heatmap ends */
+
+#gen-chart {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  justify-items: center;
+}
+
+.gen-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dot-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 14px); /* Max 10 per row */
+  gap: 6px;
+  justify-content: center;
+      justify-items: center;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #d40000;
+}
+
+.gen-label {
+  font-family: 'ibm-plex-mono', monospace;
+  font-size: 14px;
+  margin-top: 0.75rem;
+  text-align: center;
+}
+.generation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  column-gap: 3rem; /* horizontal spacing between generation blocks */
+  row-gap: 2rem;
+  justify-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.generation-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dots-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20px);
+  justify-content: center;
+  row-gap: 6px;
+  column-gap: 6px; /* tight circle spacing */
+}
+
+
+.perpetrators {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.perpetrator-image {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perpetrator-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.perpetrator-image span {
+  position: absolute;
+  color: white;
+  font-family: 'veneer-two', monospace;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  font-size: 15rem;
+  z-index: 2;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.perpetrator-image span:first-of-type {
+  font-size: 2.5rem;
+  font-weight: bold;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.perpetrator-image span:last-of-type {
+  font-size: 1rem;
+  font-weight: normal;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.5px;
+}
