@@ -681,7 +681,7 @@ tbody tr.highlight .victim {
 .gen-block {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: right;
 }
 
 .dot-grid {
@@ -933,7 +933,7 @@ canvas#perpetratorChart {
 .credits p {
     font-family: "ibm-plex-mono", "Courier New", monospace;
     font-style: italic;
-    font-size: 1.1rem;
+    font-size: 15px;
     line-height: 1.6;
     color: #999;
     max-width: 800px;
