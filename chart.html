@@ -1,122 +1,264 @@
-<!-- Plotly -->
-<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bangladesh Spike Map</title>
+  <style>
+   /* Map container stays fixed and centered under scroll */
+#map-container {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
 
-<!-- Container -->
-<div class="heatmap-section">
-  <h2 class="heatmap-title">Geographic Distribution of Violence</h2>
-  <p class="heatmap-subtitle">
-    Spatial analysis of fatalities across districts and administrative zones during the July Massacre
-  </p>
-  <div id="heatmapChart" style="width:100%; max-width:1000px; height:600px;"></div>
+/* Scroll text container */
+#scroll-sections {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin: 600px auto 0;
+  font-family: 'utopia-std', serif;
+  pointer-events: none;
+}
+
+
+    .step {
+  height: 100vh;
+  padding: 2rem;
+}
+
+.scroll-sections {
+  margin-top: 600px;
+  font-family: 'utopia-std', serif;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Individual scroll steps */
+.scroll-cover {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  pointer-events: none; /* Allow selection if needed */
+  max-width:600px;
+  margin:0 auto;
+}
+
+
+
+.scroll-text {
+  font-family: 'ibm-plex-mono', monospace;
+  border: 1px solid #000;
+  padding: 2rem 1.5rem;
+  max-width: 500px;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+/* Styled date header (e.g., “20 July”) */
+.scroll-text::before {
+  content: attr(data-day);
+  display: table;
+  padding: 0.4rem 1rem;
+  margin: 0px auto 1rem;
+  border: 1px solid #000;
+  border-radius: 999px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Actual text (e.g., “📅 July 20: ...”) */
+.scroll-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+  </style>
+</head>
+<body>
+
+<div id="map-container">
+  <svg id="bd-map" width="800" height="800"></svg>
 </div>
 
-<!-- Styles -->
-<style>
-.heatmap-section {
-  font-family: 'utopia-std', serif;
-  padding: 2rem 1rem;
-  max-width: 1000px;
-  margin: auto;
-  background: none;
-  border: none;
-}
-.heatmap-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 0.3rem;
-}
-.heatmap-subtitle {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-#heatmapChart .slice.cursor-pointer {
-  cursor: pointer;
-}
-.heatmap-section text.slicetext {
-  font-family: 'IBM Plex Mono', monospace !important;
-}
-</style>
+<div id="scroll-sections">
+ 
+  <div class="scroll-cover">
+  <div class="scroll-text" data-day="16-Jul-2024">📅 July 16: The massacre begins.</div>
+</div>
+<div class="scroll-cover">
+  <div class="scroll-text" data-day="17-Jul-2024">📅 July 17: Violence spreads in Dhaka.</div>
+</div>
+<div class="scroll-cover">
+  <div class="scroll-text" data-day="18-Jul-2024">📅 July 18: Clashes intensify across districts.</div>
+</div>
+<div class="scroll-cover">
+  <div class="scroll-text" data-day="19-Jul-2024">📅 July 19: Security forces deployed nationwide.</div>
+</div>
+<div class="scroll-cover">
+  <div class="scroll-text" data-day="20-Jul-2024">📅 July 20: Curfew imposed in major cities.</div>
+</div>
+<div class="scroll-cover">
+  <div class="scroll-text" data-day="21-Jul-2024">📅 July 21: Protesters defy curfew; arrests rise.</div>
+</div>
+<div class="scroll-cover">
+  <div class="scroll-text" data-day="22-Jul-2024">📅 July 22: Media reports reveal casualties mounting.</div>
+</div>
+<div class="scroll-cover">
+  <div class="scroll-text" data-day="2-Aug-2024">📅 August 2: Situation remains tense; sporadic clashes.</div>
+</div>
+<div class="scroll-cover">
+  <div class="scroll-text" data-day="3-Aug-2024">📅 August 3: Human‑rights groups demand investigation.</div>
+</div>
+<div class="scroll-cover">
+  <div class="scroll-text" data-day="4-Aug-2024">📅 August 4: Death toll confirmed at over 100.</div>
+</div>
+<div class="scroll-cover">
+  <div class="scroll-text" data-day="5-Aug-2024">📅 August 5: Government announces inquiry commission.</div>
+</div>
+
+  
+</div>
+
+<div id="tooltip" style="position:absolute;pointer-events:none;
+     background:#fff;border:1px solid #999;padding:.4rem .6rem;
+     font:0.9rem/1.2 'utopia-std',serif;display:none;"></div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
-const values = [107, 66, 62, 56, 40, 36, 25, 19];
-const labels = ["Wari", "Uttara", "Mirpur", "Gulshan", "Motijhil",
-                "Tejgaon", "Ramna", "Lalbagh"];
+  // Choropleth map for Bangladesh districts (ADM2) with hover + scroll
+// ------------------------------------------------------------------
+// Requirements in HTML:
+// <svg id="bd-map" width="800" height="800"></svg>
+// <div id="tooltip" style="position:absolute;display:none;
+//      background:#fff;border:1px solid #999;padding:.35rem .55rem;
+//      font:0.9rem/1.35 Utopia,serif;pointer-events:none"></div>
+// .scroll-text blocks with data-day="DD-Mon-YYYY" that match JSON keys
+// ------------------------------------------------------------------
 
-const data = [{
-  type: "treemap",
-  labels,
-  parents: Array(values.length).fill(""),
-  values,
-  textinfo: "label+value",
-  hoverinfo: "skip",                        // no hover events
-  marker: {
-    colors: values,
-    opacity: 0,                             // (ignored by treemap, safe to keep)
-    colorscale: [[0,'yellow'],[0.5,'orange'],[1,'red']],
-    colorbar: {
-      title: "Fatalities",
-      orientation: "h",
-      x: 0.5, xanchor: "center", y: 1.15,
-      len: 0.8, thickness: 20, outlinewidth: 0,
-      tickfont:  { family: "IBM Plex Mono", size: 12, color: "#000" },
-      titlefont: { family: "IBM Plex Mono", size: 12, color: "#000" }
-    },
-    line: { width: 0 }
-  }
-}];
+let geoData, massacreRows, dayKeys = [], dayData = {};
 
-const layout  = {
-  margin: { t:0, l:0, r:0, b:0 },
-  paper_bgcolor: "rgba(0,0,0,0)",
-  plot_bgcolor:  "rgba(0,0,0,0)"
-};
+Promise.all([
+  fetch("bangladesh-districts.geojson").then(r => r.json()),
+  fetch("july-massacre-map.json").then(r => r.json())
+])
+.then(([geo, massacre]) => {
+  console.log("✔ GeoJSON loaded", geo.features.length);
+  console.log("✔ Massacre rows", massacre.length);
 
-const config  = {
-  displayModeBar: false,
-  displaylogo:   false,
-  responsive:    true,
-  staticPlot:    true                    // disables hover / click
-};
+  geoData = geo;
 
-Plotly.newPlot("heatmapChart", data, layout, config).then(() => {
-
-  /* centre every label */
-  document.querySelectorAll('#heatmapChart .slice').forEach(slice => {
-    const path = slice.querySelector('path.surface');
-    const txt  = slice.querySelector('text.slicetext');
-    if (path && txt) {
-      const m = path.getAttribute('d').match(/M([\d.]+),([\d.]+)L([\d.]+),([\d.]+)/);
-      if (m) {
-        const [,x1,y1,x2,y2] = m.map(Number);
-        const cx = (x1+x2)/2, cy = (y1+y2)/2;
-        requestAnimationFrame(() => {
-          const h = txt.getBBox().height || 0;
-          txt.setAttribute('transform', `translate(${cx},${cy+h/2})`);
-          txt.setAttribute('text-anchor', 'middle');
-        });
-      }
-    }
+  // clean massacre rows & collect day columns
+  massacreRows = massacre.map(r => {
+    const out = {};
+    Object.entries(r).forEach(([k,v]) => {
+      const val = (k === "District") ? v.trim() : (v === "" ? 0 : +v);
+      out[k.trim()] = val;
+      if(k !== "District" && !dayKeys.includes(k.trim())) dayKeys.push(k.trim());
+    });
+    return out;
   });
+  buildDayLookup();
+  initMap();
+  initScroll();
+})
+.catch(err => console.error("❌ Data load error", err));
 
-  /* one-time style cleanup */
-  document.querySelectorAll('#heatmapChart path.surface').forEach((p, idx) => {
-    let s = p.getAttribute('style') || '';
+//--------------------------------------
+// helpers
+//--------------------------------------
+const svg = d3.select("#bd-map");
+const projection = d3.geoMercator()
+  .center([90.4, 23.7])
+  .scale(4500)
+  .translate([400,400]);
+const path = d3.geoPath().projection(projection);
+const tooltip = d3.select("#tooltip");
 
-    /* remove strokes */
-    s = s
-      .replace(/stroke:\s*[^;]+;/gi,'')
-      .replace(/stroke-width:\s*[^;]+;/gi,'')
-      .replace(/stroke-opacity:\s*[^;]+;/gi,'');
+const canon = s => (s||"").toString().normalize("NFD")
+  .replace(/\p{Diacritic}/gu,"")
+  .trim().toLowerCase().replace(/[^a-z]/g,"");
 
-    /* if this path is the dark-grey filler block, make it transparent */
-    if (/rgb\(68,\s*68,\s*68\)/i.test(s)) {
-      s = s.replace(/rgb\(68,\s*68,\s*68\)/gi,'transparent');
-      s = /fill-opacity:/i.test(s)
-            ? s.replace(/fill-opacity:\s*[^;]+;/i,'fill-opacity: 0;')
-            : s + ' fill-opacity: 0;';
-    }
-
-    p.setAttribute('style', s.trim());
+function buildDayLookup(){
+  dayKeys.forEach(day => {
+    const obj = {};
+    massacreRows.forEach(r => obj[canon(r.District)] = r[day]||0);
+    dayData[day] = obj;
   });
-});
+  console.log("✔ dayKeys", dayKeys);
+}
+
+//--------------------------------------
+// map drawing
+//--------------------------------------
+function districtName(props){
+  // handle various field names seen in GeoJSONs
+  return props.ADM2_EN || props.DIST_NAME || props.NAME_2 || props.NAME_1 || props.NAME_0 || "";
+}
+function districtCanon(props){
+  return canon(districtName(props));
+}
+
+function initMap(){
+  svg.selectAll("path")
+    .data(geoData.features)
+    .join("path")
+      .attr("d", path)
+      .attr("stroke", "#999").attr("stroke-width",0.5)
+      .attr("data-canon", d=>districtCanon(d.properties));
+
+  // pick first day with data
+  const firstDay = dayKeys.find(d => d3.max(massacreRows,r=>r[d])>0) || dayKeys[0];
+  updateChoropleth(firstDay);
+}
+
+//--------------------------------------
+// choropleth update
+//--------------------------------------
+function updateChoropleth(day){
+  console.log("➡ day", day);
+  const vals = dayData[day]||{};
+  const max = d3.max(Object.values(vals));
+  const color = d3.scaleSequential([0, max||1], d3.interpolateYlOrRd);
+
+  svg.selectAll("path")
+    .transition().duration(400)
+    .attr("fill", function(){ return color(vals[this.dataset.canon]||0); });
+
+  svg.selectAll("path")
+    .on("mouseover", function(event,d){
+      const c = this.dataset.canon;
+      const val = vals[c]||0;
+      const name = districtName(d.properties);
+      d3.select(this).attr("stroke-width",2).raise();
+      tooltip.html(`<strong>${name}</strong><br>${val}`)
+             .style("display","block");
+    })
+    .on("mousemove", e => tooltip.style("left",(e.pageX+12)+"px").style("top",(e.pageY-28)+"px"))
+    .on("mouseleave", function(){
+      d3.select(this).attr("stroke-width",0.5);
+      tooltip.style("display","none");
+    });
+}
+
+//--------------------------------------
+// scroll trigger
+//--------------------------------------
+function initScroll(){
+  const obs = new IntersectionObserver(es=>{
+    es.forEach(e=> e.isIntersecting && updateChoropleth(e.target.dataset.day));
+  }, {threshold:0.6});
+  document.querySelectorAll(".scroll-text").forEach(el=>obs.observe(el));
+}
+
 </script>
+</body>
+</html>
