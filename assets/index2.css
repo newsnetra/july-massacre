@@ -180,37 +180,6 @@ h2 {
 
 }
 
-.hero::after {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: url("https://www.transparenttextures.com/patterns/noisy.png") repeat;
-    background-size: 300px 300px;
-    animation: 0.2s steps(2) infinite;
-    opacity: 0.8;
-    pointer-events: none;
-    mix-blend-mode: overlay;
-    filter: contrast(180%) brightness(130%);
-}
-
-
-/* Re‑use the same wander pattern */
-@keyframes hero-noise {
-  0%   { transform: translate(0 , 0 ); }
-  10%  { transform: translate(-5% , -5%); }
-  20%  { transform: translate(-10%,  5%); }
-  30%  { transform: translate( 5% , -10%); }
-  40%  { transform: translate(-5% ,  15%); }
-  50%  { transform: translate(-10%,  5%); }
-  60%  { transform: translate( 15%,  0 ); }
-  70%  { transform: translate( 0 , 10%); }
-  80%  { transform: translate(-15%,  0 ); }
-  90%  { transform: translate( 10%,  5%); }
-  100% { transform: translate( 5% , 0 ); }
-}
 
 
 .blurb {
