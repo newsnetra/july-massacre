@@ -13,11 +13,9 @@ header {
     background: black;
     padding: 4rem 1rem 6rem;
     overflow: hidden;
-    -webkit-mask-image: url('/assets/photos/Paper Rip.svg');
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: 100% auto;
     -webkit-mask-position: bottom;
-    mask-image: url('/assets/photos/Paper Rip.svg');
     mask-repeat: no-repeat;
     mask-size: 100% auto;
     mask-position: bottom;
