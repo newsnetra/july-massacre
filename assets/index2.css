@@ -1270,7 +1270,7 @@ code {
 
 @media (max-width: 768px) {
     #perpetratorChart {
-        max-width: 100% !important;
+        width: 100% !important;
     }
 
     .policeIgp {
@@ -1365,7 +1365,7 @@ code {
     }
 
     #perpetratorChart {
-        height: unset !important;
+        /* height: unset !important; */
     }
 
     .methods-section, .chart-wrapper {

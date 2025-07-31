@@ -185,63 +185,63 @@
                     contradictory, and in those instances, we could not determine the likely perpetrator with a
                     high degree of confidence.</p>
 
+            </div>
+
+            <div class="table-container">
+                <div class="filters">
+                    <label>District:
+                        <select id="filter-district">
+                            <option value="">All</option>
+                        </select>
+                    </label>
+
+                    <label>Perpetrator:
+                        <select id="filter-perpetrator">
+                            <option value="">All</option>
+                        </select>
+                    </label>
+
+                    <label>Region:
+                        <select id="filter-region">
+                            <option value="">All</option>
+                        </select>
+                    </label>
+
+
+
+                    <div class="search">
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#aaa"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M21.53 20.47l-4.79-4.8A7.92 7.92 0 0018 10a8 8 0 10-8 8 7.92 7.92 0 005.67-2.26l4.8 4.79a.75.75 0 001.06-1.06zM4 10a6 6 0 1112 0 6 6 0 01-12 0z" />
+                        </svg>
+                        <input type="text" id="search" placeholder="Search">
                     </div>
 
-                <div class="table-container">
-                    <div class="filters">
-                        <label>District:
-                            <select id="filter-district">
-                                <option value="">All</option>
-                            </select>
-                        </label>
-
-                        <label>Perpetrator:
-                            <select id="filter-perpetrator">
-                                <option value="">All</option>
-                            </select>
-                        </label>
-
-                        <label>Region:
-                            <select id="filter-region">
-                                <option value="">All</option>
-                            </select>
-                        </label>
-
-
-
-                        <div class="search">
-                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                fill="#aaa" viewBox="0 0 24 24">
-                                <path
-                                    d="M21.53 20.47l-4.79-4.8A7.92 7.92 0 0018 10a8 8 0 10-8 8 7.92 7.92 0 005.67-2.26l4.8 4.79a.75.75 0 001.06-1.06zM4 10a6 6 0 1112 0 6 6 0 01-12 0z" />
-                            </svg>
-                            <input type="text" id="search" placeholder="Search">
-                        </div>
-
-                    </div>
-
-
-                    <table>
-                        <thead>
-                            <tr>
-                                <th data-sort="MedicalCaseID">Medical ID ↑↓</th>
-                                <th data-sort="Victim">Victim’s Name ↑↓</th>
-                                <th data-sort="Region">Region ↑↓</th>
-                                <th data-sort="AllegedPerpetrator">Alleged Perpetrator ↑↓</th>
-                            </tr>
-                        </thead>
-
-                        <tbody id="victim-table-body">
-                            <!-- Rows will be dynamically injected here -->
-                        </tbody>
-                    </table>
-
-                    <div class="pagination">
-                        &lt; <span>1</span> <span>2</span> <span>3</span> … <span>11</span> <span>12</span> &gt;
-                    </div>
                 </div>
 
-                <div class="article-text">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th data-sort="MedicalCaseID">Medical ID ↑↓</th>
+                            <th data-sort="Victim">Victim’s Name ↑↓</th>
+                            <th data-sort="Region">Region ↑↓</th>
+                            <th data-sort="AllegedPerpetrator">Alleged Perpetrator ↑↓</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="victim-table-body">
+                        <!-- Rows will be dynamically injected here -->
+                    </tbody>
+                </table>
+
+                <div class="pagination">
+                    &lt; <span>1</span> <span>2</span> <span>3</span> … <span>11</span> <span>12</span> &gt;
+                </div>
+            </div>
+
+            <div class="article-text">
 
                 <h2>Shoot first, aim later</h2>
                 <p>Our analysis — based on accounts from victims’ families and news reports — suggests that half of
@@ -426,11 +426,11 @@
 
             <div class="methods-section">
                 <!-- Full-width bar chart -->
-<!-- Full-width bar chart -->
-<div class="chart-box full-width">
-    <h2 class="chart-title">Methods of Violence Analysis</h2>
-  
-</div>
+                <!-- Full-width bar chart -->
+                <div class="chart-box full-width">
+                    <h2 class="chart-title">Methods of Violence Analysis</h2>
+
+                </div>
 
                 <!-- Bottom section -->
                 <div class="bottom-grid">
@@ -583,7 +583,7 @@
                     to ascertain whose shots took the lives of the victims.</p>
             </div>
 
-            <canvas id="perpetratorChart" style="max-height: 500px;"></canvas>
+            <canvas id="perpetratorChart" style="max-height: 1000px;"></canvas>
 
             <div class="article-text">
 
@@ -693,7 +693,7 @@
 
                                 <blockquote>On July 1st, 2025, the interim government added 10 more names to the list of
                                     834 martyrs.
-                                    
+
                                 </blockquote>
                             </div>
 
@@ -1145,44 +1145,44 @@
         });
     </script>
 
-<script>
-    fetch('july-massacre-cause-of-death.json')
-        .then(res => res.json())
-        .then(json => {
-            const data = json.Data;
+    <script>
+        fetch('july-massacre-cause-of-death.json')
+            .then(res => res.json())
+            .then(json => {
+                const data = json.Data;
 
-            const pieTotal = { Shot: 0, Stabbed: 0, Beaten: 0, Others: 0 };
-            data.forEach(d => {
-                for (const key in d.Cause) {
-                    pieTotal[key] += d.Cause[key];
-                }
-            });
+                const pieTotal = { Shot: 0, Stabbed: 0, Beaten: 0, Others: 0 };
+                data.forEach(d => {
+                    for (const key in d.Cause) {
+                        pieTotal[key] += d.Cause[key];
+                    }
+                });
 
-            const sorted = Object.entries(pieTotal).sort((a, b) => b[1] - a[1]);
-            const pieLabels = sorted.map(d => d[0]);
-            const pieData = sorted.map(d => d[1]);
+                const sorted = Object.entries(pieTotal).sort((a, b) => b[1] - a[1]);
+                const pieLabels = sorted.map(d => d[0]);
+                const pieData = sorted.map(d => d[1]);
 
-            const pieColors = ['#B00000', '#F12945', '#F6959E', '#DED5D5'];
+                const pieColors = ['#B00000', '#F12945', '#F6959E', '#DED5D5'];
 
-            new Chart(document.getElementById('pieChart').getContext('2d'), {
-                type: 'pie',
-                data: {
-                    labels: pieLabels,
-                    datasets: [{
-                        data: pieData,
-                        backgroundColor: pieColors
-                    }]
-                },
-                options: {
-                    plugins: {
-                        legend: {
-                            display: false
+                new Chart(document.getElementById('pieChart').getContext('2d'), {
+                    type: 'pie',
+                    data: {
+                        labels: pieLabels,
+                        datasets: [{
+                            data: pieData,
+                            backgroundColor: pieColors
+                        }]
+                    },
+                    options: {
+                        plugins: {
+                            legend: {
+                                display: false
+                            }
                         }
                     }
-                }
+                });
             });
-        });
-</script>
+    </script>
 
 
 
@@ -1361,9 +1361,17 @@
                         },
                         options: {
                             responsive: true,
+                            layout: {
+                                padding: {
+                                    top: 10,
+                                    bottom: 10
+                                }
+                            },
                             plugins: {
                                 legend: {
+                                    position: 'bottom',
                                     labels: {
+                                        boxWidth: 12,
                                         font: {
                                             family: 'ibm-plex-mono',
                                             size: 12
@@ -1380,23 +1388,29 @@
                                 }
                             },
                             scales: {
-                                x: {
-                                    stacked: true,
-                                    ticks: {
-                                        font: {
-                                            family: 'ibm-plex-mono'
-                                        }
-                                    }
-                                },
-                                y: {
-                                    stacked: true,
-                                    ticks: {
-                                        font: {
-                                            family: 'ibm-plex-mono'
-                                        }
-                                    }
-                                }
-                            }
+  x: {
+    stacked: true,
+    ticks: {
+      maxRotation: 45,
+      minRotation: 30,
+      padding: 2,
+      font: {
+        size: 9,
+        family: 'ibm-plex-mono'
+      }
+    }
+  },
+  y: {
+    stacked: true,
+    ticks: {
+      font: {
+        size: 8,
+        family: 'ibm-plex-mono'
+      },
+      padding: 2
+    }
+  }
+}
                         }
 
 
