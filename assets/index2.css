@@ -894,6 +894,7 @@ canvas#perpetratorChart {
     padding: 2rem 1.5rem;
     max-width: 500px;
     text-align: center;
+    background-color: rgba(249, 249, 249, 0.5);
 }
 
 .scroll-text::before {
@@ -907,6 +908,9 @@ canvas#perpetratorChart {
     font-size: 1rem;
 }
 
+.scroll-spacer {
+  height: 100vh; /* or adjust as needed */
+}
 
 #tooltip {
     position: absolute;
