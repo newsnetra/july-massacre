@@ -13,7 +13,7 @@
     <meta name="author" content="Aaqib Md. Shatil" />
 
     <!-- Open Graph (Facebook, LinkedIn, etc.) -->
-    <meta property="og:title" content="Counting the Monsoon Massacre" />
+    <meta property="og:title" content="Counting The Monsoon Massacre" />
     <meta property="og:description"
         content="Netra News investigated 834 killings during Bangladesh’s July 2024 uprising. Our findings reveal the scale and brutality of state violence under Sheikh Hasina." />
     <meta property="og:image" content="https://interactive.netra.news/july-massacre/feature.webp" />
@@ -23,7 +23,7 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Counting the Monsoon Massacre" />
+    <meta name="twitter:title" content="Counting The Monsoon Massacre" />
     <meta name="twitter:description"
         content="Netra News traced 834 victims of the July 2024 massacre in Bangladesh. Here’s what we found." />
     <meta name="twitter:image" content="https://interactive.netra.news/july-massacre/feature.webp" />
@@ -41,7 +41,7 @@
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
 
-    <title>The Red Massacre | Netra News</title>
+    <title>Counting The Monsoon Massacre</title>
 </head>
 
 
@@ -102,8 +102,8 @@
         </div>
 
         <h1 class="headline">
-            <span class="line1">COUNTING THE</span><br>
-            <span class="line2">MONSOON MASSACRE</span>
+            <span class="line1">Counting</span><br>
+            <span class="line2">The Monsoon Massacre</span>
         </h1>
         </div>
     </header>
@@ -131,59 +131,61 @@
 
 
 
-                <p><span class="dropcap">T</span>wo women in burkhas frantically ran through the narrow lanes 
-                    of a fish market behind East West University in Rampura. The Dhaka neighbourhood, dense with 
-                    private university campuses, had become a bloody battleground between protesters, armed police, 
-                    and pro-government cadres during last year’s student uprising.</p>
+                <p><span class="dropcap">T</span>wo women in burkhas weaved frantically through the narrow lanes of a
+                    fish market behind East West University in Rampura. The Dhaka neighbourhood, dense with private
+                    university campuses, had become a bloody battleground between protesters, armed police, and
+                    pro-government cadres during last year&rsquo;s student uprising.</p>
 
                 <p>Chaos had taken hold.</p>
 
-                <p>“A man told us to take this route to get to Farazy Hospital,” recalled Selina Begum, 
-                    “Because there’s heavy gunfire, the Rampura bridge was inaccessible.”</p> 
+                <p>&ldquo;A man told us to take this route to get to Farazy Hospital,&rdquo; recalled Selina Begum, running alongside her daughter.
+                    &ldquo;Because there&rsquo;s heavy gunfire, the Rampura bridge was inaccessible.&rdquo; 
                     
-                <p>Moments earlier, just after the call to Zuhr prayer on July 18th, Selina had bolted 
-                    from her home with her daughter. Her son’s phone had rung. But it wasn’t him on the line. 
-                    “‘He’s been shot,’ a stranger told me,” she said in a recent interview.</p>
+                <p>Moments earlier, just after the call to Zuhr prayer on July 18th, Selina had bolted from her home with
+                    her daughter. Her son&rsquo;s phone had rung. But it wasn&rsquo;t him on the line.
+                    &ldquo;&lsquo;He&rsquo;s been shot,&rsquo; a stranger told me,&rdquo; she said in a recent interview.</p>
 
-                <p>By the time Selina reached the hospital, her son was gone, “The doctor said he was 
-                    in critical condition. They had sent him to a government hospital.” </p>
+                <p>Outside, the streets had erupted. Protesters clashed with police. Armed cadres loyal to the
+                    ruling Awami League roamed the roads. Chaos had taken hold.</p>
 
-                <p>Mugda Hospital, she guessed. It had to be. When they arrived, her son lay unconscious. 
-                    His body twitched in irregular spasms, like a fish out of water. He had suffered 
-                    75 pellet wounds across his upper torso, including his head.</p>
+                <p>By the time Selina reached the hospital, her son was gone, &ldquo;The doctor said he was in
+                    critical condition. They had sent him to a government hospital.&rdquo;</p>
 
-                <p>Selim was moved across different private hospitals seeking treatment. For twelve days, 
-                    Selim clung to life in the ICU of a private hospital in Dhaka. To get him admitted there, 
-                    Selina was forced to sign a statement swearing that her son had not joined the student 
-                    protests. It didn’t matter. Her only son died anyway.</p>
+                <p>Mugda Hospital, she guessed. It had to be. When they arrived, her son lay unconscious.
+                    His body twitched in irregular spasms, like a fish out of water. He had suffered 75 pellet wounds
+                    across his upper torso, including his head.
 
-                <p>Md Selim Talukder, shot at close range by police, was one of hundreds killed during
-                    a three-week massacre unleashed by Bangladesh’s then-ruling Awami League government.</p>
+                <p>Selim was moved across different private hospitals seeking treatment. For twelve days, Selim clung 
+                    to life in the ICU of a private hospital in Dhaka. To get him admitted there, Selina was forced 
+                    to sign a statement swearing that her son had not joined the student protests. It didn’t matter. 
+                    Her only son died anyway.</p>
 
-                <p>What started as a student protest against the quota-based government job recruitment system 
-                    turned into a bloody anti-government protest after then-Prime Minister Sheikh Hasina sought 
-                    to quell it with brutal use of force.</p>
+                <p>Md Selim Talukder, shot at close range by police, was one of hundreds killed during a three-week
+                    massacre unleashed by Bangladesh&rsquo;s then-ruling Awami League government.</p>
 
-                <p>Hasina fled to India on August 5th. An interim government succeeded her.</p>
+                <p>What started as a student protest against the quota-based government job recruitment system
+                    turned into a bloody anti-government protest after then-Prime Minister Sheikh Hasina sought to
+                    quell it with brutal use of force.</p>
 
-                <p>In December, the government published a gazette which included a list of 834 people
-                    declared to be ‘martyrs’ of the massacre. But the list was not without discrepancies.</p>                
+                <p>Hasina fled to India on August 5th. An interim government succeeded her. In December, that
+                    government published a list of 834 people it declared to be &lsquo;martyrs&rsquo; of the
+                    massacre. But the list was not without discrepancies.</p>
 
-                <p>Over six months, Netra News spoke with the families of more than 650 victims, interviewed
-                    local protest organisers, and reviewed over 2,000 news reports. The project aims to map where 
-                    the deaths occurred, identify possible perpetrators, and determine which security officials 
-                    were responsible for the relevant jurisdictions, ultimately seeking to understand the pattern 
-                    of state violence.</p>
+                <p>Over six months, Netra News spoke with the families of more than 650 victims, interviewed local
+                    protest organisers, and reviewed over 2,000 news reports. The project aimed to map where the
+                    deaths occurred, identify possible perpetrators, and determine which security officials were
+                    responsible for the relevant jurisdictions, ultimately seeking to understand the pattern of
+                    state violence.</p>
 
-                <p>Netra News was able to verify and reconcile details of 750 deaths. Of these, we assessed 
-                    that at least 705 individuals were likely killed either by security forces or by 
-                    Awami League-affiliated cadres.</p>
+                <p>Netra News was able to verify and reconcile details of 750 deaths. Of these, we assessed that at
+                    least 705 individuals were likely killed either by security forces or by Awami League-affiliated
+                    cadres.</p>
 
-                <p>This is not to suggest that the remaining individuals listed in the official gazette 
-                    were not victims of the same violence. In several cases, Netra News was unable to 
-                    confirm the exact circumstances surrounding their deaths. Some accounts were ambiguous or 
-                    ontradictory, and in those instances, we could not determine the likely perpetrator with a 
-                    high degree of confidence.</p>
+                <p>This is not to suggest that the remaining individuals listed in the official gazette were not
+                    victims of the same violence. In several cases, Netra News was unable to confirm the exact
+                    circumstances surrounding their deaths. Some accounts were ambiguous or contradictory, and in
+                    those instances, we could not determine the likely perpetrator with a high degree of confidence.
+                </p>
 
             <div class="table-container">
                 <div class="filters">
@@ -407,20 +409,27 @@
             <div id="tooltip"></div>
 
 
-            <div class="article-text"></div>            
+            <div class="article-text">       
                 <p>Numerous photographs and videos from that day captured Awami League members parading in the streets
                     armed with military-grade weapons, sharp machetes, and blunt objects. Notably, half of the victims
                     who suffered fatal injuries leading to their deaths were harmed by these Awami League members or
                     armed cadres backed by the party, allegedly killing 86.</p>
 
-            </div>
-
-            <div class="article-text">
+            
                 <p>On August 5th, at least 267 people suffered fatal injuries; some died on that day, and others
                     succumbed to their injuries in the following months.</p>
             </div>
 
-           <div class="methods-section">
+            
+            <div class="methods-section">
+                <!-- Full-width bar chart -->
+                <div class="chart-box full-width">
+                    <h2 class="chart-title">Methods of Violence Analysis</h2>
+                    <p class="chart-subtitle">Breakdown of violence methods used against victims throughout the massacre
+                        period</p>
+                    <canvas id="barChart" height="100"></canvas>
+                </div>
+
                 <!-- Bottom section -->
                 <div class="bottom-grid">
                     <div class="pie-container">
@@ -431,6 +440,7 @@
                             <span>Shot <strong>97.16%</strong></span>;
                             <span>Others <strong>0.85%</strong></span>;
                             <span>Stabbed <strong>0.85%</strong></span>
+
 
 
                         </div>
@@ -457,20 +467,21 @@
                         <div class="key-findings">
                             <h3>Key Findings</h3>
                             <ul>
-                                <li>97.16% of victims died from gunshot wounds, confirming systematic use of firearms.
+                                <li>96.5% of victims died from gunshot wounds, confirming systematic use of firearms.
                                 </li>
-                                <li>During curfew period (July 20–22), 100% of victims were shot.</li>
-                                <li>Physical violence (stabbing, beating) peaked during initial escalation phase.</li>
-                                <li>Lethal weapons were widely used in Dhaka's entry points.</li>
+                                <li>During curfew period (July 20–22), 100% of victims were shot</li>
+                                <li>Physical violence (stabbing, beating) peaked during initial escalation phase</li>
+                                <li>During curfew period (July 20–22), 100% of victims were shot</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
- 
 
 
-            <div class="article-text"></div>            
+
+
+            <div class="article-text">          
                 <h2>A massacre approved by the ‘Core Committee’</h2>
                 <p>All of the country’s chiefs of security forces and intelligence agencies comprised this ‘core’
                     committee, according to the UN’s human rights office’s report on the massacre, published in February
@@ -616,7 +627,7 @@
 
 
                 <div id="app">
-                    <h3 class="method-title">Methodology and notes of discrepancies</h3>
+                    <h3 class="method-title">Methodology</h3>
                     <div class="box" id="expandingBox">
                         <div class="content" id="boxContent" style="--max-height: 150px;">
                             <div class="methodology">
