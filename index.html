@@ -426,12 +426,6 @@
 
             <div class="methods-section">
                 <!-- Full-width bar chart -->
-                <div class="chart-box full-width">
-                    <h2 class="chart-title">Methods of Violence Analysis</h2>
-                    <p class="chart-subtitle">Breakdown of violence methods used against victims throughout the massacre
-                        period</p>
-                    <canvas id="barChart" height="100"></canvas>
-                </div>
 
                 <!-- Bottom section -->
                 <div class="bottom-grid">
@@ -1146,79 +1140,45 @@
         });
     </script>
 
-    <script>
-        fetch('july-massacre-cause-of-death.json')
-            .then(res => res.json())
-            .then(json => {
-                const data = json.Data;
+<script>
+    fetch('july-massacre-cause-of-death.json')
+        .then(res => res.json())
+        .then(json => {
+            const data = json.Data;
 
-                const nonZero = data.filter(d => d.GrandTotal > 0);
-                const barLabels = nonZero.map(d => d.Date);
-                const barData = nonZero.map(d => d.GrandTotal);
-
-
-                const pieTotal = { Shot: 0, Stabbed: 0, Beaten: 0, Others: 0 };
-                data.forEach(d => {
-                    for (const key in d.Cause) {
-                        pieTotal[key] += d.Cause[key];
-                    }
-                });
-                const sorted = Object.entries(pieTotal).sort((a, b) => b[1] - a[1]);
-                const pieLabels = sorted.map(d => d[0]);
-                const pieData = sorted.map(d => d[1]);
-
-                const pieColors = ['#B00000', '#F12945', '#F6959E', '#DED5D5'];
-
-
-                new Chart(document.getElementById('barChart').getContext('2d'), {
-                    type: 'bar',
-                    data: {
-                        labels: barLabels,
-                        datasets: [{
-                            data: barData,
-                            backgroundColor: '#E40000', // or any from your 6-color palette
-                            borderRadius: 0
-                        }]
-                    },
-                    options: {
-                        scales: {
-                            x: {
-                                ticks: {
-                                    font: { family: 'ibm-plex-mono', size: 12 }
-                                }
-                            },
-                            y: {
-                                beginAtZero: true,
-                                ticks: {
-                                    font: { family: 'ibm-plex-mono', size: 12 }
-                                }
-                            }
-                        },
-                        plugins: {
-                            legend: { display: false }
-                        }
-                    }
-                });
-
-                new Chart(document.getElementById('pieChart').getContext('2d'), {
-                    type: 'pie',
-                    data: {
-                        labels: pieLabels,
-                        datasets: [{
-                            data: pieData,
-                            backgroundColor: pieColors
-                        }]
-                    },
-                    options: {
-                        plugins: {
-                            legend: {
-                                display: false
-                            }
-                        }
-                    }
-                });
+            const pieTotal = { Shot: 0, Stabbed: 0, Beaten: 0, Others: 0 };
+            data.forEach(d => {
+                for (const key in d.Cause) {
+                    pieTotal[key] += d.Cause[key];
+                }
             });
-    </script>
+
+            const sorted = Object.entries(pieTotal).sort((a, b) => b[1] - a[1]);
+            const pieLabels = sorted.map(d => d[0]);
+            const pieData = sorted.map(d => d[1]);
+
+            const pieColors = ['#B00000', '#F12945', '#F6959E', '#DED5D5'];
+
+            new Chart(document.getElementById('pieChart').getContext('2d'), {
+                type: 'pie',
+                data: {
+                    labels: pieLabels,
+                    datasets: [{
+                        data: pieData,
+                        backgroundColor: pieColors
+                    }]
+                },
+                options: {
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+        });
+</script>
+
 
 
     <script>
