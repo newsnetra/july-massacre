@@ -460,18 +460,18 @@
 
 
                 <div class="perpetrators">
-                    <div class="perpetrator-image"><img alt="Police"
-                            src="../police.webp"><span>467</span><span>POLICE</span></div>
+                    <div class="perpetrator-image"><img alt="পুলিশ"
+                            src="../police.webp"><span>৪৬৭</span><span>পুলিশ</span></div>
                     <div class="perpetrator-image"><img alt="Awami League"
-                            src="../Awami League.webp"><span>86</span><span>AWAMI LEAGUE</span></div>
+                            src="../Awami League.webp"><span>৮৬</span><span>আওয়ামী লীগ</span></div>
                     <div class="perpetrator-image"><img alt="Police-BGB"
-                            src="../police bgb.webp"><span>63</span><span>POLICE-BGB</span></div>
+                            src="../police bgb.webp"><span>৬৩</span><span>পুলিশ-বিজিবি</span></div>
                     <div class="perpetrator-image"><img alt="Police-AL"
-                            src="../police-al.webp"><span>43</span><span>POLICE-AL</span></div>
+                            src="../police-al.webp"><span>৪৩</span><span>পুলিশ-আঃলীঃ</span></div>
                     <div class="perpetrator-image"><img alt="Border Guard Bangladesh"
-                            src="../bgb.webp"><span>27</span><span>BGB</span></div>
+                            src="../bgb.webp"><span>২৭</span><span>বিজিবি</span></div>
                     <div class="perpetrator-image"><img alt="Others"
-                            src="../others.webp"><span>19</span><span>OTHERS</span></div>
+                            src="../others.webp"><span>১৯</span><span>অন্যান্য</span></div>
                 </div>
 
 
@@ -993,8 +993,8 @@
 
     <script>
         const values = [107, 66, 62, 56, 40, 36, 25, 19];
-        const labels = ["Wari", "Uttara", "Mirpur", "Gulshan", "Motijhil",
-            "Tejgaon", "Ramna", "Lalbagh"];
+        const labels = ["ওয়ারী", "উত্তরা", "মিরপুর", "গুলশান", "মতিঝিল",
+            "তেজগাঁও", "রমনা", "লালবাগ"];
 
         const data = [{
             type: "treemap",
@@ -1089,7 +1089,7 @@
         // 1 dot = 10 victims
         const UNIT = 10;
 
-        fetch('july-massacre-generations.json')
+        fetch('../july-massacre-generations-bangla.json')
             .then(res => res.json())
             .then(data => {
                 const chart = document.getElementById('gen-chart');
