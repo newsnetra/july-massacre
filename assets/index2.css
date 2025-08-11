@@ -1321,6 +1321,9 @@ code {
 }
 
 @media (max-width: 450px) and (orientation: portrait) {
+    .bottom-grid {
+        gap:0.1rem;
+    }
     .img {
         max-width: 120px;
     }
